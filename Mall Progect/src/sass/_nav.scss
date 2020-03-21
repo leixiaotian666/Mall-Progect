@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* 导航栏 */
+.bg_nav{
+    @include bgstyle(#f1f1f1,40px);
+}
+.nav{
+    @include middlestyle(#fff,1000px,40px);
+    .pinpai a{
+        font-size: 18px;
+        color:gray;
+        float: left;
+        line-height: 40px;
+        margin-left: 10px;
+    }
+    ul{
+        float: right;
+        li{
+            float: left;
+            padding: 0 32px;
+            line-height: 40px;
+            a{
+                font-size: 18px;
+                color:gray;
+                display: block;
+                height:38px;
+            }
+            a:hover{
+                border-bottom: 2px solid red;
+            }
+        }
+    }
+}

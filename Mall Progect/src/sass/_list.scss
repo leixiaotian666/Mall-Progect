@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* 列表栏 */
+.bg_list{
+    @include bgstyle(#f1f1f1,400px);
+}
+.list{
+    @include middlestyle(pink,1000px,400px);
+    h2{
+        font-size: 16px;
+        color:#333;
+        text-align: center;
+        height:40px;
+        line-height: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    .listl{
+        width: 300px;
+        height: 398px;
+        background: #fff;
+        float: left;
+        overflow: hidden;
+        border: 1px solid #ccc;
+        
+        img{
+            display: block;
+            width:250px;
+            height:300px;
+            margin-left: 25px;
+            margin-top: 15px;
+        }
+    }
+    .listr{
+        width: 698px;
+        height: 400px;
+        // background: green;
+        float: left;
+        overflow: hidden;
+        p{
+            display: block;
+            font-size: 14px;
+            color:#333;
+            margin-left: 30px;
+            // margin-right: 5px;
+            margin-top: 8px;
+        }
+        a{
+            font-size: 14px;
+            color:#444;
+        }
+        .iconfont{
+            font-size: 8px;
+            margin-right: 10px;
+        }
+        @mixin listbgstyle($width,$height,$background,$float:left) {
+            width: $width;
+            height: $height;
+            background: $background;
+            float: $float;
+
+        }
+        .fuzhuang{
+            @include listbgstyle(278px,380px,#fff,left);
+            border-right: 1px solid #ccc;
+            .fuzhuang1{
+                @include listbgstyle(139px,339px,#fff,left);              
+            }
+            .fuzhuang2{
+                @include listbgstyle(139px,339px,#fff,left); 
+            }
+        }
+        .daoju{
+            @include listbgstyle(139px,380px,#fff,left);
+            border-right: 1px solid #ccc;
+            .daoju1{
+                @include listbgstyle(139px,339px,#fff,left);
+            } 
+        }
+        .xiezi{
+            @include listbgstyle(139px,380px,#fff,left);
+            border-right: 1px solid #ccc;
+            .xiezi1{
+                @include listbgstyle(139px,339px,#fff,left);
+            }  
+        }
+        .peishi{
+            @include listbgstyle(139px,380px,#fff,left); 
+            .peishi1{
+                @include listbgstyle(139px,339px,#fff,left);
+            } 
+        }
+    }
+}

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@mixin bgstyle($background:#ccc,$height:40px) {
+    background:$background;
+    // width:$width;
+    height:$height;
+}
+@mixin middlestyle($background:skyblue,$width:1100px,$height:100px) {
+    background:$background;
+    width:$width;
+    height:$height;
+    margin: 0 auto;
+}
+/* 头部区域 */
+.bg_top{
+    @include bgstyle(#ccc,40px);
+}
+.top{
+    @include middlestyle(#ccc,1000px,40px);
+    .top-1{
+        float: left;
+        p{font-size: 14px;
+            color:red;
+            line-height: 40px;
+            margin-left: 20px;
+        }
+    }
+    .top-2{
+        float: right;
+        ul{
+            height:40px;
+            overflow: hidden;
+            // line-height: 40px;
+            li{
+                float: left;
+                padding: 0 10px ;
+                // line-height: 40px;
+                margin-top: 10px;
+                a{
+                    font-size: 14px;
+                    color:rgba( 0,0,0,0.7)
+                }
+                .a1{
+                    color:red;
+                }
+            }
+        }
+    }
+}
+

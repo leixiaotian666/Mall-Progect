@@ -1,0 +1,81 @@
+.public body, .public h1, .public h2, .public h3, .public h4, .public h5, .public h6, .public p, .public ul, .public li, .public ol, .public dl, .public dd, .public fieldset, .public legend, .public button, .public input, .public textarea, .public th, .public td {
+  padding: 0;
+  margin: 0;
+}
+.public html {
+  font-size: 12px;
+  background-color: #eee;
+}
+.public .clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+.public .clear {
+  zoom: 1;
+}
+.public li {
+  list-style: none;
+}
+.public a {
+  text-decoration: none;
+}
+.public img {
+  vertical-align: top;
+  border: 0;
+}
+.public input, .public select, .public button, .public textarea {
+  outline: none;
+}
+.public textarea {
+  resize: none;
+}
+.public input[type="button"], .public input[type="submit"], .public input[type="file"] {
+  cursor: pointer;
+}
+
+.bg_registry_list {
+  height: 650px;
+  position: relative;
+}
+.bg_registry_list img {
+  width: 100%;
+  height: 650px;
+  margin-top: -25px;
+}
+
+.registry_list {
+  width: 400px;
+  height: 500px;
+  background: skyblue;
+  position: absolute;
+  right: 600px;
+  top: 80px;
+}
+.registry_list fieldset {
+  width: 400px;
+  height: 500px;
+  border: none;
+  overflow: hidden;
+}
+.registry_list fieldset p {
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+.registry_list fieldset p input {
+  width: 250px;
+  height: 30px;
+}
+.registry_list fieldset p .sub {
+  width: 100px;
+  height: 30px;
+}
+.registry_list fieldset .title {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=registry_list.css.map */

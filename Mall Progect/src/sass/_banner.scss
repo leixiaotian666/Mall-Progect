@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* banner区 */
+.bg_banner{
+    @include bgstyle(#f1f1f1,500px);
+}
+.banner{
+    @include middlestyle(pink,1000px,500px);
+    position: relative;
+    .bannerimg {
+        width:1100px;
+        height:500px;
+        overflow: hidden;
+        img{ 
+            width:1000px;
+            height:500px;
+        }
+    }
+    .smallnav{
+        position:absolute;
+        bottom: 10px;
+        right:100px;
+        a{
+            display: block;
+            width:40px;
+            height:40px;
+            background: rgba(0,0,0,0.5);
+            float: left;
+            line-height: 40px;
+            text-align: center;
+            color: #fff;
+            margin-left: 20px;
+            border-radius: 50%;
+        }
+        a:hover{
+            background: rgba(0,0,0,0.8);
+        }
+    }
+    .icon-zuojiantou{
+        position: absolute;
+        left:10px;
+        top:225px;
+        color: rgba(0,0,0,0.6);
+        font-size: 50px;
+        
+    }
+    .icon-youjiantou{
+        position: absolute;
+        right:10px;
+        top:225px;
+        color: rgba(0,0,0,0.6);
+        font-size: 50px;
+    }
+}
