@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="login">
+        <a href="registry.html">请注册</a>
+        <a href="login.html">请登录</a>
+    </div>
+    <div class="admin" style="display: none;">
+        <span></span>：欢迎光临
+        <a href="javascript:;">退出</a>
+    </div>
+    <script src="js/jscookie.js"></script>
+    <script>
+        const login = document.querySelector('.login');
+        const admin = document.querySelector('.admin');
+        const span = document.querySelector('span');
+        const close = document.querySelector('.admin a');
+        if (jscookie.get('loginname')) {
+            admin.style.display = 'block';
+            login.style.display = 'none';
+            span.innerHTML = jscookie.get('loginname');
+        }
+        close.onclick = function () {
+            admin.style.display = 'none';
+            login.style.display = 'block';
+            jscookie.del('loginname')
+        }
+    </script>
+</body>
+
+</html>
