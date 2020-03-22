@@ -1,14 +1,15 @@
 @charset "UTF-8";
 
-.bg_content{
+.bg_lbcontent{
     background: #fff;
     height: auto;  
 }
-.content{
+.lbcontent{
     width:1000px;
     // background: skyblue;
     overflow: hidden; 
     height: auto;  
+    margin: 0 auto;
     .leftlist{
         width:140px;
         // height:800px;

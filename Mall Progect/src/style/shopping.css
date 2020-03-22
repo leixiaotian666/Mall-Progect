@@ -1,4 +1,8 @@
 @charset "UTF-8";
+body {
+  background: #fff;
+}
+
 /*楼梯导航栏*/
 .loutinav {
   width: 50px;
@@ -170,109 +174,123 @@ body {
   border-bottom: 2px solid red;
 }
 
-.bg_banner {
-  height: 400px;
-  margin-bottom: 20px;
-}
-.bg_banner .banner {
-  width: 1000px;
-  height: 400px;
-}
-.bg_banner .banner img {
-  width: 1000px;
-  height: 400px;
-}
-
-.bg_lbcontent {
-  background: #fff;
+.bg_shopping {
   height: auto;
 }
 
-.lbcontent {
+.shopping {
   width: 1000px;
-  overflow: hidden;
-  height: auto;
+  height: 600px;
   margin: 0 auto;
-}
-.lbcontent .leftlist {
-  width: 140px;
-  background: #fff;
-  float: left;
   overflow: hidden;
 }
-.lbcontent .leftlist p {
-  margin-bottom: 5px;
+.shopping table {
+  margin-top: 30px;
 }
-.lbcontent .leftlist p a {
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.9);
+.shopping table input {
+  margin-left: 10px;
 }
-.lbcontent .leftlist p a .iconfont {
-  font-size: 10px;
-  margin-right: 5px;
-}
-.lbcontent .leftlist h2 {
-  margin-bottom: 8px;
-}
-.lbcontent .leftlist .all {
-  color: red;
-  font-size: large;
-  margin-top: 5px;
-}
-.lbcontent .rightcontent {
-  width: 860px;
-  float: left;
-}
-.lbcontent .rightcontent .toplist {
-  width: 820px;
+.shopping table thead > tr > td {
+  width: 1000px;
   height: 40px;
-  margin-left: 40px;
-}
-.lbcontent .rightcontent .toplist a {
-  margin-right: 15px;
-  margin-left: 15px;
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.8);
+  border: 1px solid #ccc;
+  font-size: 15px;
   line-height: 40px;
 }
-.lbcontent .rightcontent .toplist .sum {
-  display: block;
-  float: right;
-  line-height: 40px;
-  margin-right: 20px;
-  font-size: 14px;
-}
-.lbcontent .rightcontent .list {
-  width: 860px;
-  height: auto;
-}
-.lbcontent .rightcontent .list .list1 {
-  float: right;
-  width: 250px;
-  height: 350px;
-  margin-left: 35px;
-  overflow: hidden;
-}
-.lbcontent .rightcontent .list .list1 img {
-  width: 250px;
-  height: 280px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-.lbcontent .rightcontent .list .list1 span {
-  font-size: 16px;
-}
-.lbcontent .rightcontent .list .list1 .name {
-  display: block;
-  color: rgba(0, 0, 0, 0.8);
-  text-align: center;
-  margin-bottom: 6px;
-}
-.lbcontent .rightcontent .list .list1 .price {
-  display: block;
+.shopping table thead > tr > td .one {
+  margin-left: 2px;
   color: red;
+}
+.shopping table thead > tr > td .two {
+  margin-left: 60px;
+}
+.shopping table thead > tr > td .three {
+  margin-left: 320px;
+}
+.shopping table thead > tr > td .four {
+  margin-left: 90px;
+}
+.shopping table thead > tr > td .five {
+  margin-left: 140px;
+}
+.shopping table thead > tr > td .six {
+  margin-left: 70px;
+}
+.shopping table tbody > tr > td {
+  width: 1000px;
+  height: 120px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  color: #666;
+  line-height: 120px;
+}
+.shopping table tbody > tr > td a {
+  color: #666;
+}
+.shopping table tbody > tr > td img {
+  width: 100px;
+  height: 100px;
+  margin-left: 70px;
+  vertical-align: middle;
+}
+.shopping table tbody > tr > td .one {
+  margin-left: 275px;
+}
+.shopping table tbody > tr > td .two {
+  margin-left: 60px;
+}
+.shopping table tbody > tr > td .two,
+.shopping table tbody > tr > td .three,
+.shopping table tbody > tr > td .four {
+  border: 1px solid #ccc;
+  font-size: 20px;
+  padding: 0 5px;
+}
+.shopping table tbody > tr > td .three {
+  padding: 0 15px;
+}
+.shopping table tbody > tr > td .three,
+.shopping table tbody > tr > td .four {
+  margin-left: -5px;
+}
+.shopping table tbody > tr > td .five {
+  margin-left: 105px;
+}
+.shopping table tbody > tr > td .six {
+  margin-left: 70px;
+}
+.shopping tbody > tr > .zong {
+  width: 1000px;
+  height: 40px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  position: relative;
+  line-height: 40px;
+}
+.shopping tbody > tr > .zong .first {
+  margin-left: 30px;
+}
+.shopping tbody > tr > .zong .second {
+  margin-left: 15px;
+}
+.shopping tbody > tr > .zong .third {
+  margin-left: 370px;
+}
+.shopping tbody > tr > .zong .fourth,
+.shopping tbody > tr > .zong .sixth {
+  color: red;
+}
+.shopping tbody > tr > .zong .seventh {
+  display: block;
+  width: 80px;
+  height: 30px;
+  background: red;
+  color: #fff;
+  position: absolute;
+  right: 20px;
+  top: 5px;
   text-align: center;
-  margin-bottom: 10px;
+  line-height: 30px;
 }
 
 .public body, .public h1, .public h2, .public h3, .public h4, .public h5, .public h6, .public p, .public ul, .public li, .public ol, .public dl, .public dd, .public fieldset, .public legend, .public button, .public input, .public textarea, .public th, .public td {
@@ -366,4 +384,4 @@ body {
   color: gray;
 }
 
-/*# sourceMappingURL=goodslist.css.map */
+/*# sourceMappingURL=shopping.css.map */
