@@ -49,12 +49,12 @@ input[type="button"], input[type="submit"], input[type="file"] {
 
 /* 头部区域 */
 .bg_top {
-  background: #ccc;
+  background: #f1f1f1;
   height: 40px;
 }
 
 .top {
-  background: #ccc;
+  background: #f1f1f1;
   width: 1000px;
   height: 40px;
   margin: 0 auto;
@@ -90,7 +90,7 @@ input[type="button"], input[type="submit"], input[type="file"] {
 
 /* logo和input框 */
 .bg_logo {
-  background: #f1f1f1;
+  background: #fff;
   height: 100px;
 }
 
@@ -119,9 +119,11 @@ input[type="button"], input[type="submit"], input[type="file"] {
   height: 50px;
   float: left;
 }
-.logo .inp .sinp img {
-  width: 50px;
-  height: 50px;
+.logo .inp .sinp .icon-sousuo {
+  display: block;
+  font-size: 40px;
+  color: #ccc;
+  line-height: 50px;
   float: left;
 }
 .logo .inp .sinp input {
@@ -147,8 +149,12 @@ input[type="button"], input[type="submit"], input[type="file"] {
 }
 
 /* 导航栏 */
+body {
+  background: #fff;
+}
+
 .bg_nav {
-  background: #f1f1f1;
+  background: #fff;
   height: 40px;
 }
 
@@ -195,21 +201,27 @@ input[type="button"], input[type="submit"], input[type="file"] {
 .loutinav ul li {
   width: 50px;
   height: 50px;
-  border-bottom: 1px solid gray;
+  border: 1px solid #f1f1f1;
 }
-.loutinav ul li a {
-  font-size: 18px;
-  color: gray;
+.loutinav ul li a span {
+  font-size: 30px;
+  color: red;
+  display: block;
+  line-height: 50px;
+  text-align: center;
+}
+.loutinav ul .li4 {
+  border-bottom: 0;
 }
 
 /* banner区 */
 .bg_banner {
-  background: #f1f1f1;
+  background: #fff;
   height: 500px;
 }
 
 .banner {
-  background: pink;
+  background: #fff;
   width: 1000px;
   height: 500px;
   margin: 0 auto;
@@ -261,7 +273,7 @@ input[type="button"], input[type="submit"], input[type="file"] {
 
 .bg_tuijian {
   height: 60px;
-  background: #f1f1f1;
+  background: #fff;
 }
 .bg_tuijian .tuijian {
   width: 1000px;
@@ -275,12 +287,12 @@ input[type="button"], input[type="submit"], input[type="file"] {
 
 /* 主要内容区 */
 .bg_content {
-  background-color: #f1f1f1;
+  background-color: #fff;
   height: 620px;
 }
 
 .content {
-  background-color: #f1f1f1;
+  background-color: #fff;
   width: 1000px;
   margin: 0 auto;
   height: 620px;
@@ -320,12 +332,12 @@ input[type="button"], input[type="submit"], input[type="file"] {
 
 /* 列表栏 */
 .bg_list {
-  background: #f1f1f1;
+  background: #fff;
   height: 400px;
 }
 
 .list {
-  background: pink;
+  background: #fff;
   width: 1000px;
   height: 400px;
   margin: 0 auto;
@@ -340,12 +352,11 @@ input[type="button"], input[type="submit"], input[type="file"] {
   margin-bottom: 10px;
 }
 .list .listl {
-  width: 300px;
+  width: 298px;
   height: 398px;
-  background: #fff;
   float: left;
   overflow: hidden;
-  border: 1px solid #ccc;
+  border: 1px solid #f1f1f1;
 }
 .list .listl img {
   display: block;
@@ -357,8 +368,10 @@ input[type="button"], input[type="submit"], input[type="file"] {
 .list .listr {
   width: 698px;
   height: 400px;
+  background: #fff;
   float: left;
   overflow: hidden;
+  border: 1px solid #f1f1f1;
 }
 .list .listr p {
   display: block;
@@ -377,10 +390,10 @@ input[type="button"], input[type="submit"], input[type="file"] {
 }
 .list .listr .fuzhuang {
   width: 278px;
-  height: 380px;
+  height: 400px;
   background: #fff;
   float: left;
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #f1f1f1;
 }
 .list .listr .fuzhuang .fuzhuang1 {
   width: 139px;
@@ -396,10 +409,10 @@ input[type="button"], input[type="submit"], input[type="file"] {
 }
 .list .listr .daoju {
   width: 139px;
-  height: 380px;
+  height: 400px;
   background: #fff;
   float: left;
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #f1f1f1;
 }
 .list .listr .daoju .daoju1 {
   width: 139px;
@@ -409,10 +422,10 @@ input[type="button"], input[type="submit"], input[type="file"] {
 }
 .list .listr .xiezi {
   width: 139px;
-  height: 380px;
+  height: 400px;
   background: #fff;
   float: left;
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #f1f1f1;
 }
 .list .listr .xiezi .xiezi1 {
   width: 139px;
@@ -422,7 +435,7 @@ input[type="button"], input[type="submit"], input[type="file"] {
 }
 .list .listr .peishi {
   width: 139px;
-  height: 380px;
+  height: 400px;
   background: #fff;
   float: left;
 }
@@ -483,6 +496,12 @@ input[type="button"], input[type="submit"], input[type="file"] {
   width: 1000px;
   height: 130px;
   margin: 0 auto;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer li {
+  list-style: none;
 }
 .footer .footer1 {
   width: 1000px;

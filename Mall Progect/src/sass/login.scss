@@ -1,16 +1,4 @@
 @charset "UTF-8";
-// 公共样式
-body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dd,fieldset,legend,button,input,textarea,th,td{padding:0;margin:0;}
-html{font-size:12px;background-color:#eee;}
-.clear:after{content:"";display:block;clear:both;height:0;visibility:hidden;overflow:hidden;}
-.clear{zoom:1;}
-li{list-style:none;}
-a{text-decoration:none;}
-img{vertical-align:top;border:0;}
-input,select,button,textarea{outline:none;}
-textarea{resize:none;}
-input[type="button"],input[type="submit"],input[type="file"] {cursor:pointer;}
-
 @mixin bgstyle($background:#ccc,$height:40px) {
     background:$background;
     // width:$width;

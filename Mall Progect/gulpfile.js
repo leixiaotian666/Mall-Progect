@@ -4,17 +4,17 @@ const css = require('gulp-minify-css');//压缩css的插件
 const script = require('gulp-uglify');//压缩js的插件
 //es6转es5的三个模块
 //gulp-babel@7   babel-core       babel-preset-es2015
-// const babel = require('gulp-babel');//主要
-// const babelcore = require('babel-core');
-// const es2015 = require('babel-preset-es2015');
+const babel = require('gulp-babel');//主要
+const babelcore = require('babel-core');
+const es2015 = require('babel-preset-es2015');
  
 //sass编译
-//gulp-sass gulp-sourcemaps gulp-load-plugins 
-// const sass = require('gulp-sass');
-//引入生成.map文件模块
-// const sourcemaps = require('gulp-sourcemaps');
-//生成.map文件
-// const plugins = require('gulp-load-plugins')();//返回的是一个函数体。需要再次执行。
+// gulp-sass gulp-sourcemaps gulp-load-plugins 
+const sass = require('gulp-sass');
+// 引入生成.map文件模块
+const sourcemaps = require('gulp-sourcemaps');
+// 生成.map文件
+const plugins = require('gulp-load-plugins')();//返回的是一个函数体。需要再次执行。
  
  
 //gulp-watch监听模块
@@ -66,17 +66,17 @@ gulp.task('uglifyjs', () => {
  
 //5.编译sass,同时生成.map文件(.map调式文件)
 // gulp - sass gulp - sourcemaps gulp - load - plugins
-// gulp.task('compilesass', () => {
-//     return gulp.src('src/sass/*.scss')
-//         //初始化gulp-sourcemaps插件
-//         .pipe(plugins.sourcemaps.init())
-//         .pipe(plugins.sass({
-//             outputStyle: 'compressed'
-//         }))
-//         //通过sourcemaps,生成.map文件
-//         .pipe(plugins.sourcemaps.write('.'))
-//         .pipe(gulp.dest('dist/sass/'));
-// });
+gulp.task('compilesass', () => {
+    return gulp.src('src/sass/*.scss')
+        //初始化gulp-sourcemaps插件
+        .pipe(plugins.sourcemaps.init())
+        .pipe(plugins.sass({
+            outputStyle: 'compressed'
+        }))
+        //通过sourcemaps,生成.map文件
+        .pipe(plugins.sourcemaps.write('.'))
+        .pipe(gulp.dest('dist/sass/'));
+});
  
 //6.图片压缩插件-imagemin@6
 //对png最大的压缩，其他的格式几乎压不动。

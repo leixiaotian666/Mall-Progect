@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@mixin bgstyle($background:#ccc,$height:40px) {
+@mixin bgstyle($background:#fff,$height:40px) {
     background:$background;
     // width:$width;
     height:$height;
@@ -12,10 +12,10 @@
 }
 /* 头部区域 */
 .bg_top{
-    @include bgstyle(#ccc,40px);
+    @include bgstyle(#f1f1f1,40px);
 }
 .top{
-    @include middlestyle(#ccc,1000px,40px);
+    @include middlestyle(#f1f1f1,1000px,40px);
     .top-1{
         float: left;
         p{font-size: 14px;

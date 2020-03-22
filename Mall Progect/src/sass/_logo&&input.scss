@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* logo和input框 */
 .bg_logo{
-    @include bgstyle(#f1f1f1,100px);
+    @include bgstyle(#fff,100px);
 }
 .logo{
     @include middlestyle(#fff,1000px,100px);
@@ -23,9 +23,11 @@
             height:50px;
             float: left;
             
-            img{
-                width:50px;
-                height:50px;
+            .icon-sousuo{
+                display: block;
+                font-size: 40px;
+                color: #ccc;
+                line-height: 50px;
                 float: left;
             }
             input{

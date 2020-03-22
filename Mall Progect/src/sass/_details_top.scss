@@ -1,0 +1,241 @@
+@charset "UTF-8";
+.bg_details_top{
+    height:650px;
+
+}
+.details_top{
+    height:650px;
+    width: 1000px;
+    margin: 0 auto;
+
+    // background: skyblue;
+    .leftimg{
+        height:650px;
+        width: 400px;
+        // background: yellow;
+        float: left;
+        .smallimg{
+            height:500px;
+            width: 400px;
+            margin-bottom: 20px;
+            // background: yellow;
+            img{
+                height:500px;
+                width: 400px;
+            }            
+        }
+        .bottomimg{
+            height:130px;
+            width: 400px;
+            overflow: hidden;
+            // background: green;
+            img{
+                height:60px;
+                width: 60px;
+                float: left;
+                margin-left: 10px;
+            }
+            .icon-zuojiantou,.icon-youjiantou{
+                display: block;
+                float: left;
+                line-height: 60px;
+                font-size: 23px;
+            }
+            a{
+                font-size: 14px;
+                line-height: 60px;
+                color: rgba(0,0,0,0.8);
+                .icon-lujing,.icon-fenxiang{  
+                    font-size: 16px;         
+                    color: red;
+                    margin-left: 20px;
+                }          
+            }
+        }
+    }  
+    .rightinf{
+        height:610px;
+        width: 560px;
+        // background: pink;
+        float: left;
+        padding: 20px;
+        overflow: hidden;
+        span{
+            font-size: 14px;
+            color:#666;
+        }
+        .title{
+            // display: block;
+            // width:30px;
+            // height: 20px;
+            background: green;
+            font-size: 16px;
+            color: #fff;
+            float: left;
+            margin-right: 10px;
+        }
+        .title1{
+            font-weight: 600;
+            font-size: 16px;
+
+        }
+        .price{
+            width:550px;
+            height:50px;
+            background: #f3f3f3;
+            margin-right: 50px;
+            line-height: 50px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            .price1{
+                color: red;
+                font-size: 30px;
+                margin-left: 30px;
+            }
+            .pingjia{
+
+                margin-left: 300px;
+            }
+        }
+        .peisong{
+            margin-bottom: 20px;
+            width:570px;
+            height: 40px;
+            span{
+                line-height: 40px;
+            }
+            input{
+                width:400px;
+                height:30px;
+                margin-left: 20px;
+            }
+        }
+        .chima{
+            margin-bottom: 20px;
+            width:570px;
+            height: 40px;
+            .choose{
+                float: left;
+                line-height: 40px;
+            }
+            ul{
+                float: left;
+                a{
+                    color:#666;
+                    float: left;
+                    width: 50px;
+                    height: 40px;
+                    border: 1px solid #ccc;
+                    margin-left: 10px;
+                    font-size: 20px;
+                    text-align: center;  
+                    line-height: 40px;                     
+                }
+            }
+        }
+        .shuliang{
+            margin-bottom: 20px;
+            width:570px;
+            height: 40px;
+            overflow: hidden;
+            span{
+                line-height: 40px;
+                float: left;
+            }
+            input{
+                width:40px;
+                height:30px;
+                float: left;
+                margin-top: 3px;
+            }
+            a{
+                font-size: 30px;
+                color: #666;
+                float: left;
+                line-height: 40px;
+            }
+            .less{
+                margin-left: 40px;
+                margin-right: 10px; 
+                // font-size: 40px;              
+            }
+            .add{
+                margin-left: 5px;
+            }
+            .kucun{
+                margin-left: 20px;
+            }
+        }
+        .goumai{
+            width:570px;
+            height: 40px;
+            margin-bottom: 20px;
+            .buy{
+                display: block;
+                width: 150px;
+                height:40px;
+                background: #ffe4d0;
+                float: left;
+                margin-right: 30px;
+                text-align: center;
+                line-height: 40px;
+                font-size: 20px;
+                color: red;
+            }
+            .gouwuche{
+                display: block;
+                width: 200px;
+                height:40px;
+                background: red;
+                float: left;
+                text-align: center;
+                line-height: 40px;
+                font-size: 20px;
+                color: #fff;
+                
+                .icon-gouwuche{
+                    margin-right: 10px;
+                    font-size: 20px;
+                    color: #fff;
+                }
+            }
+        }
+        .zhifu{
+            width:570px;
+            height: 40px;
+            .zf{
+                display: block;
+                float: left;
+                line-height: 30px;
+                font-size: 16px;
+            }
+            .fukuan{
+                display: block;
+                padding-left: 0 15px 0 15px;
+                height:30px;
+                text-align: center;
+                line-height: 30px;
+                float: left;
+                font-size: 16px;
+                margin-left: 20px;
+            }
+            .iconfont{
+                font-size: 16px;
+                margin-right: 5px;
+            }
+            .icon-zhifubao{
+                margin-left: 20px;
+                color:#01aaee;
+            }
+            .icon-mayihuabei{
+                color:#01aaee;
+            }
+            .icon-weixin1{
+                color:#50b674;
+            }
+            .icon-56{
+                color:#e9902b;
+            }
+        }
+    } 
+}

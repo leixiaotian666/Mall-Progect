@@ -1,7 +1,10 @@
 @charset "UTF-8";
 /* 导航栏 */
+body{
+    background: #fff;
+}
 .bg_nav{
-    @include bgstyle(#f1f1f1,40px);
+    @include bgstyle(#fff,40px);
 }
 .nav{
     @include middlestyle(#fff,1000px,40px);

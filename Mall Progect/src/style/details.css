@@ -1,0 +1,624 @@
+@charset "UTF-8";
+body {
+  background: #fff;
+}
+
+/*楼梯导航栏*/
+.loutinav {
+  width: 50px;
+  height: 200px;
+  background-color: #fff;
+  position: fixed;
+  right: 300px;
+  bottom: 400px;
+}
+.loutinav ul li {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #f1f1f1;
+}
+.loutinav ul li a span {
+  font-size: 30px;
+  color: red;
+  display: block;
+  line-height: 50px;
+  text-align: center;
+}
+.loutinav ul .li4 {
+  border-bottom: 0;
+}
+
+/* 头部区域 */
+.bg_top {
+  background: #f1f1f1;
+  height: 40px;
+}
+
+.top {
+  background: #f1f1f1;
+  width: 1000px;
+  height: 40px;
+  margin: 0 auto;
+}
+.top .top-1 {
+  float: left;
+}
+.top .top-1 p {
+  font-size: 14px;
+  color: red;
+  line-height: 40px;
+  margin-left: 20px;
+}
+.top .top-2 {
+  float: right;
+}
+.top .top-2 ul {
+  height: 40px;
+  overflow: hidden;
+}
+.top .top-2 ul li {
+  float: left;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+.top .top-2 ul li a {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.top .top-2 ul li .a1 {
+  color: red;
+}
+
+/* logo和input框 */
+.bg_logo {
+  background: #fff;
+  height: 100px;
+}
+
+.logo {
+  background: #fff;
+  width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+}
+.logo .logo1 img {
+  width: 120px;
+  height: 100px;
+  float: left;
+}
+.logo .inp {
+  width: 500px;
+  height: 50px;
+  background: #fff;
+  float: left;
+  margin-top: 25px;
+  margin-left: 90px;
+  border: 2px solid red;
+}
+.logo .inp .sinp {
+  width: 400px;
+  height: 50px;
+  float: left;
+}
+.logo .inp .sinp .icon-sousuo {
+  display: block;
+  font-size: 40px;
+  color: #ccc;
+  line-height: 50px;
+  float: left;
+}
+.logo .inp .sinp input {
+  width: 350px;
+  height: 50px;
+  border: none;
+  outline: none;
+  float: left;
+}
+.logo .inp button {
+  width: 60px;
+  height: 50px;
+  float: right;
+  background: red;
+  color: #fff;
+  border: none;
+}
+.logo .erwei img {
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin-left: 10px;
+}
+
+/* 导航栏 */
+body {
+  background: #fff;
+}
+
+.bg_nav {
+  background: #fff;
+  height: 40px;
+}
+
+.nav {
+  background: #fff;
+  width: 1000px;
+  height: 40px;
+  margin: 0 auto;
+}
+.nav .pinpai a {
+  font-size: 18px;
+  color: gray;
+  float: left;
+  line-height: 40px;
+  margin-left: 10px;
+}
+.nav ul {
+  float: right;
+}
+.nav ul li {
+  float: left;
+  padding: 0 32px;
+  line-height: 40px;
+}
+.nav ul li a {
+  font-size: 18px;
+  color: gray;
+  display: block;
+  height: 38px;
+}
+.nav ul li a:hover {
+  border-bottom: 2px solid red;
+}
+
+.bg_details_top {
+  height: 650px;
+}
+
+.details_top {
+  height: 650px;
+  width: 1000px;
+  margin: 0 auto;
+}
+.details_top .leftimg {
+  height: 650px;
+  width: 400px;
+  float: left;
+}
+.details_top .leftimg .smallimg {
+  height: 500px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+.details_top .leftimg .smallimg img {
+  height: 500px;
+  width: 400px;
+}
+.details_top .leftimg .bottomimg {
+  height: 130px;
+  width: 400px;
+  overflow: hidden;
+}
+.details_top .leftimg .bottomimg img {
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin-left: 10px;
+}
+.details_top .leftimg .bottomimg .icon-zuojiantou, .details_top .leftimg .bottomimg .icon-youjiantou {
+  display: block;
+  float: left;
+  line-height: 60px;
+  font-size: 23px;
+}
+.details_top .leftimg .bottomimg a {
+  font-size: 14px;
+  line-height: 60px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.details_top .leftimg .bottomimg a .icon-lujing, .details_top .leftimg .bottomimg a .icon-fenxiang {
+  font-size: 16px;
+  color: red;
+  margin-left: 20px;
+}
+.details_top .rightinf {
+  height: 610px;
+  width: 560px;
+  float: left;
+  padding: 20px;
+  overflow: hidden;
+}
+.details_top .rightinf span {
+  font-size: 14px;
+  color: #666;
+}
+.details_top .rightinf .title {
+  background: green;
+  font-size: 16px;
+  color: #fff;
+  float: left;
+  margin-right: 10px;
+}
+.details_top .rightinf .title1 {
+  font-weight: 600;
+  font-size: 16px;
+}
+.details_top .rightinf .price {
+  width: 550px;
+  height: 50px;
+  background: #f3f3f3;
+  margin-right: 50px;
+  line-height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.details_top .rightinf .price .price1 {
+  color: red;
+  font-size: 30px;
+  margin-left: 30px;
+}
+.details_top .rightinf .price .pingjia {
+  margin-left: 300px;
+}
+.details_top .rightinf .peisong {
+  margin-bottom: 20px;
+  width: 570px;
+  height: 40px;
+}
+.details_top .rightinf .peisong span {
+  line-height: 40px;
+}
+.details_top .rightinf .peisong input {
+  width: 400px;
+  height: 30px;
+  margin-left: 20px;
+}
+.details_top .rightinf .chima {
+  margin-bottom: 20px;
+  width: 570px;
+  height: 40px;
+}
+.details_top .rightinf .chima .choose {
+  float: left;
+  line-height: 40px;
+}
+.details_top .rightinf .chima ul {
+  float: left;
+}
+.details_top .rightinf .chima ul a {
+  color: #666;
+  float: left;
+  width: 50px;
+  height: 40px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+.details_top .rightinf .shuliang {
+  margin-bottom: 20px;
+  width: 570px;
+  height: 40px;
+  overflow: hidden;
+}
+.details_top .rightinf .shuliang span {
+  line-height: 40px;
+  float: left;
+}
+.details_top .rightinf .shuliang input {
+  width: 40px;
+  height: 30px;
+  float: left;
+  margin-top: 3px;
+}
+.details_top .rightinf .shuliang a {
+  font-size: 30px;
+  color: #666;
+  float: left;
+  line-height: 40px;
+}
+.details_top .rightinf .shuliang .less {
+  margin-left: 40px;
+  margin-right: 10px;
+}
+.details_top .rightinf .shuliang .add {
+  margin-left: 5px;
+}
+.details_top .rightinf .shuliang .kucun {
+  margin-left: 20px;
+}
+.details_top .rightinf .goumai {
+  width: 570px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.details_top .rightinf .goumai .buy {
+  display: block;
+  width: 150px;
+  height: 40px;
+  background: #ffe4d0;
+  float: left;
+  margin-right: 30px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: red;
+}
+.details_top .rightinf .goumai .gouwuche {
+  display: block;
+  width: 200px;
+  height: 40px;
+  background: red;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #fff;
+}
+.details_top .rightinf .goumai .gouwuche .icon-gouwuche {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+.details_top .rightinf .zhifu {
+  width: 570px;
+  height: 40px;
+}
+.details_top .rightinf .zhifu .zf {
+  display: block;
+  float: left;
+  line-height: 30px;
+  font-size: 16px;
+}
+.details_top .rightinf .zhifu .fukuan {
+  display: block;
+  padding-left: 0 15px 0 15px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  float: left;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.details_top .rightinf .zhifu .iconfont {
+  font-size: 16px;
+  margin-right: 5px;
+}
+.details_top .rightinf .zhifu .icon-zhifubao {
+  margin-left: 20px;
+  color: #01aaee;
+}
+.details_top .rightinf .zhifu .icon-mayihuabei {
+  color: #01aaee;
+}
+.details_top .rightinf .zhifu .icon-weixin1 {
+  color: #50b674;
+}
+.details_top .rightinf .zhifu .icon-56 {
+  color: #e9902b;
+}
+
+.bg_details_bottom {
+  height: auto;
+}
+
+.details_bottom {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.details_bottom .leftlist {
+  width: 160px;
+  height: auto;
+  float: left;
+  padding: 0 30px 0 30px;
+  border: 1px solid #f1f1f1;
+}
+.details_bottom .leftlist .top {
+  width: 160px;
+  height: 40px;
+  background: red;
+  margin-bottom: 20px;
+}
+.details_bottom .leftlist .top p {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 40px;
+}
+.details_bottom .leftlist .imglist {
+  position: relative;
+}
+.details_bottom .leftlist .imglist img {
+  margin-bottom: 10px;
+  width: 160px;
+  height: 160px;
+}
+.details_bottom .leftlist .imglist p {
+  font-size: 16px;
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.details_bottom .leftlist .imglist .title {
+  width: 160px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  left: 0;
+  top: 120px;
+  font-size: 14px;
+  color: #fff;
+  display: none;
+}
+.details_bottom .leftlist .imglist:hover .title {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.details_bottom .details {
+  width: 778px;
+  height: auto;
+  float: left;
+}
+.details_bottom .details .detailsnav {
+  width: 778px;
+  height: 40px;
+  background: #f1f1f1;
+  border-bottom: 1px solid red;
+  overflow: hidden;
+}
+.details_bottom .details .detailsnav a {
+  font-size: 14px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  float: left;
+  color: black;
+}
+.details_bottom .details .detailsnav a:hover {
+  color: red;
+}
+.details_bottom .details .detailsnav .position {
+  background: red;
+  color: #fff;
+}
+.details_bottom .details .detailsnav .right {
+  float: right;
+  background: red;
+  color: #fff;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 5px;
+  margin-right: 20px;
+  text-align: center;
+}
+.details_bottom .details .details1 {
+  width: 778px;
+  height: auto;
+  border-bottom: 1px solid #f1f1f1;
+}
+.details_bottom .details .details1 .introduce ul li {
+  font-size: 14px;
+  line-height: 30px;
+  margin-left: 20px;
+}
+.details_bottom .details .notice {
+  width: 738px;
+  height: auto;
+  padding: 20px;
+}
+.details_bottom .details .notice h2 {
+  font-size: 30px;
+  text-align: center;
+  color: skyblue;
+  font-weight: 900;
+}
+.details_bottom .details .notice p {
+  font-size: 14px;
+  line-height: 30px;
+}
+.details_bottom .details .detailed {
+  width: 758px;
+  height: auto;
+  padding-left: 20px;
+}
+
+.public body, .public h1, .public h2, .public h3, .public h4, .public h5, .public h6, .public p, .public ul, .public li, .public ol, .public dl, .public dd, .public fieldset, .public legend, .public button, .public input, .public textarea, .public th, .public td {
+  padding: 0;
+  margin: 0;
+}
+.public html {
+  font-size: 12px;
+  background-color: #eee;
+}
+.public .clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+.public .clear {
+  zoom: 1;
+}
+.public li {
+  list-style: none;
+}
+.public a {
+  text-decoration: none;
+}
+.public img {
+  vertical-align: top;
+  border: 0;
+}
+.public input, .public select, .public button, .public textarea {
+  outline: none;
+}
+.public textarea {
+  resize: none;
+}
+.public input[type="button"], .public input[type="submit"], .public input[type="file"] {
+  cursor: pointer;
+}
+
+/* 尾部 */
+.bg_footer {
+  background: #f1f1f1;
+  height: 130px;
+}
+
+.footer {
+  background: #f1f1f1;
+  width: 1000px;
+  height: 130px;
+  margin: 0 auto;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer li {
+  list-style: none;
+}
+.footer .footer1 {
+  width: 1000px;
+  height: 50px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.footer .footer1 ul {
+  margin: 0 auto;
+  text-align: center;
+  width: 500px;
+  margin-top: 30px;
+}
+.footer .footer1 ul li {
+  float: left;
+  font-size: 14px;
+  border-right: 1px solid #666;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 19px;
+}
+.footer .footer1 ul li a {
+  color: gray;
+}
+.footer .footer1 ul .last {
+  border: 0;
+}
+.footer .footer2 {
+  width: 1000px;
+  height: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+}
+
+/*# sourceMappingURL=details.css.map */

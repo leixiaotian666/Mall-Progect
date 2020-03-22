@@ -6,6 +6,12 @@
 }
 .footer{
     @include middlestyle(#f1f1f1,1000px,130px);
+    a{
+        text-decoration: none;
+    }
+    li{
+        list-style: none;
+    }
     .footer1{
         width:1000px;
         height:50px;

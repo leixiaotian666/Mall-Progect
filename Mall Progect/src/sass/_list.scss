@@ -1,10 +1,10 @@
 @charset "UTF-8";
 /* 列表栏 */
 .bg_list{
-    @include bgstyle(#f1f1f1,400px);
+    @include bgstyle(#fff,400px);
 }
 .list{
-    @include middlestyle(pink,1000px,400px);
+    @include middlestyle(#fff,1000px,400px);
     h2{
         font-size: 16px;
         color:#333;
@@ -16,12 +16,12 @@
 
     }
     .listl{
-        width: 300px;
+        width: 298px;
         height: 398px;
-        background: #fff;
+        // background: #fff;
         float: left;
         overflow: hidden;
-        border: 1px solid #ccc;
+        border: 1px solid #f1f1f1;
         
         img{
             display: block;
@@ -34,9 +34,10 @@
     .listr{
         width: 698px;
         height: 400px;
-        // background: green;
+        background: #fff;
         float: left;
         overflow: hidden;
+        border:1px solid #f1f1f1;
         p{
             display: block;
             font-size: 14px;
@@ -61,8 +62,8 @@
 
         }
         .fuzhuang{
-            @include listbgstyle(278px,380px,#fff,left);
-            border-right: 1px solid #ccc;
+            @include listbgstyle(278px,400px,#fff,left);
+            border-right: 1px solid #f1f1f1;
             .fuzhuang1{
                 @include listbgstyle(139px,339px,#fff,left);              
             }
@@ -71,21 +72,21 @@
             }
         }
         .daoju{
-            @include listbgstyle(139px,380px,#fff,left);
-            border-right: 1px solid #ccc;
+            @include listbgstyle(139px,400px,#fff,left);
+            border-right: 1px solid #f1f1f1;
             .daoju1{
                 @include listbgstyle(139px,339px,#fff,left);
             } 
         }
         .xiezi{
-            @include listbgstyle(139px,380px,#fff,left);
-            border-right: 1px solid #ccc;
+            @include listbgstyle(139px,400px,#fff,left);
+            border-right: 1px solid #f1f1f1;
             .xiezi1{
                 @include listbgstyle(139px,339px,#fff,left);
             }  
         }
         .peishi{
-            @include listbgstyle(139px,380px,#fff,left); 
+            @include listbgstyle(139px,400px,#fff,left); 
             .peishi1{
                 @include listbgstyle(139px,339px,#fff,left);
             } 
