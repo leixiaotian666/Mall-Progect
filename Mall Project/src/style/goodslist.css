@@ -1,0 +1,464 @@
+@charset "UTF-8";
+/*楼梯导航栏*/
+.loutinav {
+  width: 50px;
+  height: 200px;
+  background-color: #fff;
+  position: fixed;
+  right: 300px;
+  bottom: 400px;
+}
+.loutinav ul li {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #f1f1f1;
+}
+.loutinav ul li a span {
+  font-size: 30px;
+  color: red;
+  display: block;
+  line-height: 50px;
+  text-align: center;
+}
+
+/* 头部区域 */
+.bg_top {
+  background: #f1f1f1;
+  height: 40px;
+}
+
+.top {
+  background: #f1f1f1;
+  width: 1000px;
+  height: 40px;
+  margin: 0 auto;
+}
+.top .top-1 {
+  float: left;
+}
+.top .top-1 p {
+  font-size: 14px;
+  color: red;
+  line-height: 40px;
+  margin-left: 20px;
+}
+.top .top-2 {
+  float: right;
+}
+.top .top-2 ul {
+  height: 40px;
+  overflow: hidden;
+}
+.top .top-2 ul .iconfont {
+  font-size: 14px;
+}
+.top .top-2 ul li {
+  float: left;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+.top .top-2 ul li a {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.top .top-2 ul li .a1 {
+  color: red;
+}
+.top .top-2 ul li:hover a {
+  color: red;
+}
+
+/* logo和input框 */
+.bg_logo {
+  background: #fff;
+  height: 100px;
+}
+
+.logo {
+  background: #fff;
+  width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+}
+.logo .logo1 img {
+  width: 120px;
+  height: 100px;
+  float: left;
+}
+.logo .inp {
+  width: 500px;
+  height: 50px;
+  background: #fff;
+  float: left;
+  margin-top: 25px;
+  margin-left: 90px;
+  border: 2px solid red;
+}
+.logo .inp .sinp {
+  width: 400px;
+  height: 50px;
+  float: left;
+}
+.logo .inp .sinp .icon-sousuo {
+  display: block;
+  font-size: 40px;
+  color: #ccc;
+  line-height: 50px;
+  float: left;
+}
+.logo .inp .sinp input {
+  width: 350px;
+  height: 50px;
+  border: none;
+  outline: none;
+  float: left;
+}
+.logo .inp button {
+  width: 60px;
+  height: 50px;
+  float: right;
+  background: red;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+}
+.logo .erwei img {
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin-left: 10px;
+}
+
+/* 导航栏 */
+body {
+  background: #fff;
+}
+
+.bg_nav {
+  background: #fff;
+  height: 40px;
+}
+
+.nav {
+  background: #fff;
+  width: 1000px;
+  height: 40px;
+  margin: 0 auto;
+}
+.nav ul {
+  float: left;
+}
+.nav ul li {
+  float: left;
+  padding: 0 32px;
+  line-height: 40px;
+}
+.nav ul li a {
+  font-size: 18px;
+  color: gray;
+  display: block;
+  height: 38px;
+}
+.nav ul li a:hover {
+  border-bottom: 2px solid red;
+}
+.nav ul .li1 {
+  margin-right: 150px;
+  position: relative;
+}
+.nav ul .li1 a {
+  color: red;
+}
+.nav ul .li1 .alllist {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 2;
+  width: 1000px;
+  height: 500px;
+  background: #fff;
+  border: 1px solid #f1f1f1;
+  display: none;
+}
+.nav ul .li1 .alllist p {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+.nav ul .li1 .alllist h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.nav ul .li1 .alllist a {
+  font-size: 14px;
+  color: #444;
+}
+.nav ul .li1 .alllist a:hover {
+  color: #fff;
+  border: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.nav ul .li1 .alllist .iconfont {
+  font-size: 8px;
+  margin-right: 10px;
+}
+.nav ul .li1 .alllist .fuzhuang {
+  width: 400px;
+  height: 500px;
+  background: #fff;
+  float: left;
+  border-right: 1px solid #f1f1f1;
+}
+.nav ul .li1 .alllist .fuzhuang .fuzhuang1 {
+  width: 198px;
+  height: 339px;
+  background: #fff;
+  float: left;
+}
+.nav ul .li1 .alllist .fuzhuang .fuzhuang2 {
+  width: 198px;
+  height: 339px;
+  background: #fff;
+  float: left;
+}
+.nav ul .li1 .alllist .daoju {
+  width: 198px;
+  height: 500px;
+  background: #fff;
+  float: left;
+  border-right: 1px solid #f1f1f1;
+}
+.nav ul .li1 .alllist .daoju .daoju1 {
+  width: 198px;
+  height: 339px;
+  background: #fff;
+  float: left;
+}
+.nav ul .li1 .alllist .xiezi {
+  width: 198px;
+  height: 500px;
+  background: #fff;
+  float: left;
+  border-right: 1px solid #f1f1f1;
+}
+.nav ul .li1 .alllist .xiezi .xiezi1 {
+  width: 198px;
+  height: 339px;
+  background: #fff;
+  float: left;
+}
+.nav ul .li1 .alllist .peishi {
+  width: 198px;
+  height: 500px;
+  background: #fff;
+  float: left;
+}
+.nav ul .li1 .alllist .peishi .peishi1 {
+  width: 198px;
+  height: 339px;
+  background: #fff;
+  float: left;
+}
+.nav ul .li1:hover .alllist {
+  display: block;
+}
+
+.bg_banner {
+  height: 400px;
+  margin-bottom: 20px;
+}
+.bg_banner .banner {
+  width: 1000px;
+  height: 400px;
+}
+.bg_banner .banner img {
+  width: 1000px;
+  height: 400px;
+}
+
+.bg_lbcontent {
+  background: #fff;
+  height: auto;
+}
+
+.lbcontent {
+  width: 1000px;
+  overflow: hidden;
+  height: auto;
+  margin: 0 auto;
+}
+.lbcontent .leftlist {
+  width: 140px;
+  background: #fff;
+  float: left;
+  overflow: hidden;
+}
+.lbcontent .leftlist p {
+  margin-bottom: 5px;
+}
+.lbcontent .leftlist p a {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.9);
+}
+.lbcontent .leftlist p a .iconfont {
+  font-size: 10px;
+  margin-right: 5px;
+}
+.lbcontent .leftlist h2 {
+  margin-bottom: 8px;
+}
+.lbcontent .leftlist .all {
+  color: red;
+  font-size: large;
+  margin-top: 5px;
+}
+.lbcontent .rightcontent {
+  width: 860px;
+  float: left;
+}
+.lbcontent .rightcontent .toplist {
+  width: 820px;
+  height: 40px;
+  margin-left: 40px;
+}
+.lbcontent .rightcontent .toplist a {
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 40px;
+}
+.lbcontent .rightcontent .toplist .sum {
+  display: block;
+  float: right;
+  line-height: 40px;
+  margin-right: 20px;
+  font-size: 14px;
+}
+.lbcontent .rightcontent .list {
+  width: 860px;
+  height: auto;
+}
+.lbcontent .rightcontent .list .list1 {
+  float: right;
+  width: 250px;
+  height: 350px;
+  margin-left: 35px;
+  overflow: hidden;
+}
+.lbcontent .rightcontent .list .list1 img {
+  width: 250px;
+  height: 280px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.lbcontent .rightcontent .list .list1 span {
+  font-size: 16px;
+}
+.lbcontent .rightcontent .list .list1 .name {
+  display: block;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  margin-bottom: 6px;
+}
+.lbcontent .rightcontent .list .list1 .price {
+  display: block;
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.public body, .public h1, .public h2, .public h3, .public h4, .public h5, .public h6, .public p, .public ul, .public li, .public ol, .public dl, .public dd, .public fieldset, .public legend, .public button, .public input, .public textarea, .public th, .public td {
+  padding: 0;
+  margin: 0;
+}
+.public html {
+  font-size: 12px;
+  background-color: #eee;
+}
+.public .clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+.public .clear {
+  zoom: 1;
+}
+.public li {
+  list-style: none;
+}
+.public a {
+  text-decoration: none;
+}
+.public img {
+  vertical-align: top;
+  border: 0;
+}
+.public input, .public select, .public button, .public textarea {
+  outline: none;
+}
+.public textarea {
+  resize: none;
+}
+.public input[type="button"], .public input[type="submit"], .public input[type="file"] {
+  cursor: pointer;
+}
+
+/* 尾部 */
+.bg_footer {
+  background: #f1f1f1;
+  height: 130px;
+}
+
+.footer {
+  background: #f1f1f1;
+  width: 1000px;
+  height: 130px;
+  margin: 0 auto;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer li {
+  list-style: none;
+}
+.footer .footer1 {
+  width: 1000px;
+  height: 50px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.footer .footer1 ul {
+  margin: 0 auto;
+  text-align: center;
+  width: 500px;
+  margin-top: 30px;
+}
+.footer .footer1 ul li {
+  float: left;
+  font-size: 14px;
+  border-right: 1px solid #666;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 19px;
+}
+.footer .footer1 ul li a {
+  color: gray;
+}
+.footer .footer1 ul .last {
+  border: 0;
+}
+.footer .footer2 {
+  width: 1000px;
+  height: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+}
+
+/*# sourceMappingURL=goodslist.css.map */

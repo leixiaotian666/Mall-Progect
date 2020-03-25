@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@mixin bgstyle($background:#ccc,$height:40px) {
+    background:$background;
+    // width:$width;
+    height:$height;
+}
+@mixin middlestyle($background:skyblue,$width:1100px,$height:100px) {
+    background:$background;
+    width:$width;
+    height:$height;
+    margin: 0 auto;
+}
+@import "registry_header";//注册页面头部样式引入
+@import "registry_list";//注册页面注册表样式引入
+
+
+@import "footer";//注册页面尾部样式引入

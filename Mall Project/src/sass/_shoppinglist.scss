@@ -1,0 +1,120 @@
+@charset "UTF-8";
+.bg_shopping {
+  height: auto;
+}
+.shopping {
+  width: 1000px;
+  height: 600px;
+  // background: skyblue;
+  margin: 0 auto;
+  overflow: hidden;
+  table {
+    margin-top: 30px;
+    input {
+      margin-left: 10px;
+    }
+    thead > tr > td {
+      width: 1000px;
+      height: 40px;
+      border: 1px solid #ccc;
+      font-size: 15px;
+      line-height: 40px;
+
+      .one {
+        margin-left: 2px;
+        color: red;
+      }
+      .two {
+        margin-left: 60px;
+      }
+      .three {
+        margin-left: 320px;
+      }
+      .four {
+        margin-left: 90px;
+      }
+      .five {
+        margin-left: 140px;
+      }
+      .six {
+        margin-left: 70px;
+      }
+    }
+    tbody > tr > td {
+      width: 1000px;
+      height: 120px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+      color: #666;
+      line-height: 120px;
+      a {
+        color: #666;
+      }
+      img {
+        width: 100px;
+        height: 100px;
+        margin-left: 70px;
+        vertical-align: middle;
+      }
+      .one {
+        margin-left: 275px;
+      }
+      .two {
+        margin-left: 60px;
+      }
+      .two,
+      .three,
+      .four {
+        border: 1px solid #ccc;
+        font-size: 20px;
+        padding: 0 5px;
+      }
+      .three {
+        padding: 0 15px;
+      }
+      .three,
+      .four {
+        margin-left: -5px;
+      }
+      .five {
+        margin-left: 105px;
+      }
+      .six {
+        margin-left: 70px;
+      }
+    }
+  }
+  tbody > tr > .zong {
+    width: 1000px;
+    height: 40px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    position: relative;
+    line-height: 40px;
+    .first {
+      margin-left: 30px;
+    }
+    .second {
+      margin-left: 15px;
+    }
+    .third {
+      margin-left: 370px;
+    }
+    .fourth,
+    .sixth {
+      color: red;
+    }
+    .seventh {
+      display: block;
+      width: 80px;
+      height: 30px;
+      background: red;
+      color: #fff;
+      position: absolute;
+      right: 20px;
+      top: 5px;
+      text-align: center;
+      line-height: 30px;
+    }
+  }
+}
