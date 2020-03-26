@@ -321,10 +321,12 @@ body {
 .lbcontent .rightcontent .toplist {
   width: 820px;
   height: 40px;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 .lbcontent .rightcontent .toplist a {
   margin-right: 15px;
+  width: 100px;
+  height: 40px;
   margin-left: 15px;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.8);
@@ -339,35 +341,41 @@ body {
 }
 .lbcontent .rightcontent .list {
   width: 860px;
+  margin: 0 auto;
+  font-size: 14px;
   height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.lbcontent .rightcontent .list .list1 {
-  float: right;
+.lbcontent .rightcontent .list li {
   width: 250px;
+  padding: 10px;
+  float: left;
+  margin: 0 0 10px 13px;
+  border: 1px solid #ccc;
   height: 350px;
-  margin-left: 35px;
+  position: relative;
+}
+.lbcontent .rightcontent .list li a {
+  color: #333;
+  font-size: 14px;
+}
+.lbcontent .rightcontent .list li p {
+  width: 250px;
+  height: 48px;
+  line-height: 24px;
   overflow: hidden;
 }
-.lbcontent .rightcontent .list .list1 img {
+.lbcontent .rightcontent .list li img {
   width: 250px;
   height: 280px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-.lbcontent .rightcontent .list .list1 span {
-  font-size: 16px;
-}
-.lbcontent .rightcontent .list .list1 .name {
   display: block;
-  color: rgba(0, 0, 0, 0.8);
-  text-align: center;
-  margin-bottom: 6px;
 }
-.lbcontent .rightcontent .list .list1 .price {
+.lbcontent .rightcontent .list li span {
   display: block;
   color: red;
-  text-align: center;
-  margin-bottom: 10px;
+  font-size: 16px;
 }
 
 .public body, .public h1, .public h2, .public h3, .public h4, .public h5, .public h6, .public p, .public ul, .public li, .public ol, .public dl, .public dd, .public fieldset, .public legend, .public button, .public input, .public textarea, .public th, .public td {

@@ -9,50 +9,153 @@
     margin: 0 auto;
 
     // background: skyblue;
-    .leftimg{
-        height:650px;
-        width: 400px;
-        // background: yellow;
+    .wrap {
         float: left;
-        .smallimg{
-            height:500px;
+        position: relative;
+        width: 400px;
+        height: 650px;
+        #spic {
             width: 400px;
-            margin-bottom: 20px;
-            // background: yellow;
-            img{
-                height:500px;
+            height: 500px;
+            border: 1px solid #ccc;
+            float: left;
+            position: relative;
+            img {
                 width: 400px;
-            }            
+                height: 500px;
+            }
+            #sf {
+                width: 50px;
+                height: 50px;
+                background: orange;
+                opacity: 0.3;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                visibility: hidden;
+            }
         }
-        .bottomimg{
-            height:130px;
-            width: 400px;
+        #bf {
+            width: 500px;
+            height: 600px;
+            border: 1px solid #ccc;
             overflow: hidden;
-            // background: green;
-            img{
-                height:60px;
-                width: 60px;
-                float: left;
-                margin-left: 10px;
+            position: absolute;
+            left: 500px;
+            visibility: hidden;
+            z-index: 100;
+            img {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                width: 500px;
+                height: 600px;
             }
-            .icon-zuojiantou,.icon-youjiantou{
-                display: block;
-                float: left;
-                line-height: 60px;
-                font-size: 23px;
-            }
-            a{
-                font-size: 14px;
-                line-height: 60px;
-                color: rgba(0,0,0,0.8);
-                .icon-lujing,.icon-fenxiang{  
-                    font-size: 16px;         
-                    color: red;
-                    margin-left: 20px;
-                }          
-            }
+             
         }
-    }  
+        #ulist {
+            position: absolute;
+            left: 0px;
+            top: 430px;
+            width: 400px;
+            height: 60px;
+            overflow: hidden;
+            background-color: blue;
+            a {
+                float: left;
+                width: 10px;
+                height: 58px;
+                border: 1px solid #ccc;
+                text-decoration: none;
+                line-height: 60px;
+                text-align: center;
+                background: #fff;
+            }             
+            #list {
+                float: left;
+                margin-left: 18px;
+                width: 400px;
+                position: relative;
+                .wrap ul {
+                    list-style: none;
+                    float: left;
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    li {
+                        float: left;
+                        width: 60px;
+                        height: 60px;
+                        padding-right: 6px;
+                        img {
+                            width: 60px;
+                            height: 60px;
+                            border: 1px solid #ccc;
+                        }
+                    }                  
+                }
+            }  
+            #right {
+                position: absolute;
+                right: 0px;
+                top: 0px;
+                color: #333;
+            }
+             
+            #left {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                z-index: 2;
+                color: #fff;
+            }                     
+        }        
+    }
+    
+    // .leftimg{
+    //     height:650px;
+    //     width: 400px;
+    //     // background: yellow;
+    //     float: left;
+    //     .smallimg{
+    //         height:500px;
+    //         width: 400px;
+    //         margin-bottom: 20px;
+    //         // background: yellow;
+    //         img{
+    //             height:500px;
+    //             width: 400px;
+    //         }            
+    //     }
+    //     .bottomimg{
+    //         height:130px;
+    //         width: 400px;
+    //         overflow: hidden;
+    //         // background: green;
+    //         img{
+    //             height:60px;
+    //             width: 60px;
+    //             float: left;
+    //             margin-left: 10px;
+    //         }
+    //         .icon-zuojiantou,.icon-youjiantou{
+    //             display: block;
+    //             float: left;
+    //             line-height: 60px;
+    //             font-size: 23px;
+    //         }
+    //         a{
+    //             font-size: 14px;
+    //             line-height: 60px;
+    //             color: rgba(0,0,0,0.8);
+    //             .icon-lujing,.icon-fenxiang{  
+    //                 font-size: 16px;         
+    //                 color: red;
+    //                 margin-left: 20px;
+    //             }          
+    //         }
+    //     }
+    // }  
     .rightinf{
         height:610px;
         width: 560px;
@@ -95,19 +198,6 @@
             .pingjia{
 
                 margin-left: 300px;
-            }
-        }
-        .peisong{
-            margin-bottom: 20px;
-            width:570px;
-            height: 40px;
-            span{
-                line-height: 40px;
-            }
-            input{
-                width:400px;
-                height:30px;
-                margin-left: 20px;
             }
         }
         .chima{

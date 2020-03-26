@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-
     <meta name="description" content="淘宝, 店铺, 旺铺, 天天租衣服装网" />
     <meta name="keywords" content="欢迎前来天天租衣服装网 旺铺，众多商品任你选购" />
     <title>天天租衣</title>
@@ -14,83 +13,15 @@
 </head>
 
 <body>
-    <!----------------- 楼梯导航栏 ----------->
-    <div class="loutinav">
-        <ul>
-            <li><a href="shopping.html"><span class="iconfont icon-gouwuche"></span></a></li>
-            <li><a href=""><span class="iconfont icon-lujing"></span></a></li>
-            <li><a href=""><span class="iconfont icon-custom-service"></span></a></li>
-            <li class="li4"><a href=""><span class="iconfont icon-shangjiantou sjt"></span></a></li>
+    <!----------------- 头部公共区域 ----------->
+    <div class="header">
 
-        </ul>
-    </div>
-    <!------------ header --------------->
-    <div class="bg_top">
-        <div class="top">
-            <div class="top-1">
-                <p>时尚潮流！</p>
-            </div>
-            <div class="top-2">
-                <ul>
-                    <li><a href="login.html">请登录</a></li>
-                    <li><a class="a1" href="registry.html">免费注册</a></li>
-                    <li><a class="a1" href="shopping.html"><span class="iconfont icon-gouwuche">购物车</span></a></li>
-                    <li>
-                        <a href=""><span class="iconfont icon-kefu">客户服务</span></a>
-                        <div class="a_hover">
-                            <img src="" alt="">
-                        </div>
-                    </li>
-                    <li><a href=""><span class="iconfont icon-dingdan">我的订单</span></a></li>
-                    <li class='rightli'><a href="">关注天天租衣微信</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!---------------- logo&&input ------------------->
-    <div class="bg_logo">
-        <div class="logo">
-
-            <div class="logo1">
-                <img src="../img/logo.png" />
-            </div>
-
-            <div class="inp">
-                <div class="sinp">
-                    <span class="iconfont icon-sousuo "></span>
-                    <input type="" name="" id="" value="" placeholder="晚礼服" autofocus="" />
-                </div>
-                <button>搜索</button>
-            </div>
-
-            <div class="erwei">
-                <a href=""><img src="../img/xiaochengxu.jpg" /></a>
-                <a href=""><img src="../img/gongzhonghao.jpg" /></a>
-
-            </div>
-
-        </div>
-    </div>
-    <!--------------- nav ---------------->
-    <div class="bg_nav">
-        <div class="nav">
-            <div class="pinpai">
-                <a href="#">TianTianZuYi</a>
-            </div>
-            <ul>
-                <li><a href="index.html">首页</a></li>
-                <li><a href="">服装</a></li>
-                <li><a href="">鞋子</a></li>
-                <li><a href="">道具设备</a></li>
-                <li><a href="">服装配饰</a></li>
-                <li><a href="">会员中心</a></li>
-            </ul>
-        </div>
     </div>
     <!-- 详细信息及放大镜效果 -->
     <div class="bg_details_top">
         <div class="details_top">
-            <div class="leftimg">
+
+            <!-- <div class="leftimg">
                 <div class="smallimg">
                     <img src="https://img10.360buyimg.com/n1/s350x449_jfs/t1/85485/16/12825/61677/5e50ec3bEd4fbe3f9/594d6649046f3033.jpg!cc_350x449.jpg"
                         alt="">
@@ -107,11 +38,27 @@
                         alt="">
                     <img src="http://img30.360buyimg.com/popWaterMark/jfs/t1/87357/12/12986/97931/5e50ec49E5335b4b7/f2ebbf27f7597a45.jpg"
                         alt="">
-                    <!-- <img src="http://img30.360buyimg.com/popWaterMark/jfs/t1/97682/40/12902/120442/5e50ec49Ee1de9f62/6f07bda4ebd6ccdb.jpg"
-                        alt=""> -->
                     <span class="iconfont icon-youjiantou"></span>
                     <a href="#"> <span class="iconfont icon-lujing"></span>收藏</a>
                     <a href="#"><span class="iconfont icon-fenxiang"></span>分享 </a>
+                </div>
+            </div> -->
+            <div class="wrap">
+                <div id="spic">
+                    <img src="" alt="" id="smallpic">
+                    <div id="sf"></div>
+                </div>
+                <div id="bf">
+                    <img src="" alt="" id="bpic">
+                </div>
+                <div id="ulist">
+                    <a href="javascript:;" id="left"></a>
+                    <div id="list">
+                        <ul>
+
+                        </ul>
+                    </div>
+                    <a href="javascript:;" id="right">></a>
                 </div>
             </div>
             <div class="rightinf">
@@ -122,10 +69,7 @@
                     <span class="price1">￥50.00</span>
                     <span class="pingjia">累计评价 0 </span>
                 </div>
-                <div class="peisong">
-                    <span>配送至</span>
-                    <input type="text">
-                </div>
+
                 <div class="chima">
                     <span class="choose">选择尺码</span>
                     <ul>
@@ -161,8 +105,8 @@
                     <span class="kucun">(库存10件)</span>
                 </div>
                 <div class="goumai">
-                    <span class="buy">立即购买</span>
-                    <span class="gouwuche"><span class="iconfont icon-gouwuche"></span>加入购物车</span>
+                    <a href="#" class="buy">立即购买</a>
+                    <a href="#" class="gouwuche"><span class="iconfont icon-gouwuche"></span>加入购物车</a>
                 </div>
                 <div class="zhifu">
                     <span class="zf">支付</span>
@@ -309,26 +253,10 @@
 
     <!------------- footer -------------->
     <div class="bg_footer">
-        <div class="footer">
-            <div class="footer1">
-                <ul>
-                    <li><a href="#">网站地图</a></li>
-                    <li><a href="#">联系我们</a></li>
-                    <li><a href="#">关注我们</a></li>
-                    <li><a href="#">公司简介</a></li>
-                    <li class="last"><a href="#">采购系统入口</a></li>
-                </ul>
-            </div>
-            <p class="footer2">
-                COPYRIGHT2020天天租衣工作室&nbsp;&nbsp;版权所有&nbsp;&nbsp;鄂ICP备06005901号&nbsp;&nbsp;技术支持：天天租衣&nbsp;&nbsp;分享到:
-                <span class="iconfont icon-weixin"></span>
-                <span class="iconfont icon-QQ"></span>
-                <span class="iconfont icon-weibo"></span>
-                <span class="iconfont icon-pengyouquan"></span>
-                <span class="iconfont icon-renrenwang"></span>
-            </p>
-        </div>
+
     </div>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../script/details.js"></script>
 </body>
 
 </html>

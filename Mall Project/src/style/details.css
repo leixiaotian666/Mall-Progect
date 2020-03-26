@@ -278,46 +278,105 @@ body {
   width: 1000px;
   margin: 0 auto;
 }
-.details_top .leftimg {
+.details_top .wrap {
+  float: left;
+  position: relative;
+  width: 400px;
   height: 650px;
+}
+.details_top .wrap #spic {
   width: 400px;
+  height: 500px;
+  border: 1px solid #ccc;
   float: left;
+  position: relative;
 }
-.details_top .leftimg .smallimg {
+.details_top .wrap #spic img {
+  width: 400px;
   height: 500px;
-  width: 400px;
-  margin-bottom: 20px;
 }
-.details_top .leftimg .smallimg img {
-  height: 500px;
-  width: 400px;
+.details_top .wrap #spic #sf {
+  width: 50px;
+  height: 50px;
+  background: orange;
+  opacity: 0.3;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  visibility: hidden;
 }
-.details_top .leftimg .bottomimg {
-  height: 130px;
-  width: 400px;
+.details_top .wrap #bf {
+  width: 500px;
+  height: 600px;
+  border: 1px solid #ccc;
   overflow: hidden;
+  position: absolute;
+  left: 500px;
+  visibility: hidden;
+  z-index: 100;
 }
-.details_top .leftimg .bottomimg img {
+.details_top .wrap #bf img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 500px;
+  height: 600px;
+}
+.details_top .wrap #ulist {
+  position: absolute;
+  left: 0px;
+  top: 430px;
+  width: 400px;
   height: 60px;
+  overflow: hidden;
+  background-color: blue;
+}
+.details_top .wrap #ulist a {
+  float: left;
+  width: 10px;
+  height: 58px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  line-height: 60px;
+  text-align: center;
+  background: #fff;
+}
+.details_top .wrap #ulist #list {
+  float: left;
+  margin-left: 18px;
+  width: 400px;
+  position: relative;
+}
+.details_top .wrap #ulist #list .wrap ul {
+  list-style: none;
+  float: left;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.details_top .wrap #ulist #list .wrap ul li {
+  float: left;
   width: 60px;
-  float: left;
-  margin-left: 10px;
+  height: 60px;
+  padding-right: 6px;
 }
-.details_top .leftimg .bottomimg .icon-zuojiantou, .details_top .leftimg .bottomimg .icon-youjiantou {
-  display: block;
-  float: left;
-  line-height: 60px;
-  font-size: 23px;
+.details_top .wrap #ulist #list .wrap ul li img {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ccc;
 }
-.details_top .leftimg .bottomimg a {
-  font-size: 14px;
-  line-height: 60px;
-  color: rgba(0, 0, 0, 0.8);
+.details_top .wrap #ulist #right {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  color: #333;
 }
-.details_top .leftimg .bottomimg a .icon-lujing, .details_top .leftimg .bottomimg a .icon-fenxiang {
-  font-size: 16px;
-  color: red;
-  margin-left: 20px;
+.details_top .wrap #ulist #left {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+  color: #fff;
 }
 .details_top .rightinf {
   height: 610px;
@@ -357,19 +416,6 @@ body {
 }
 .details_top .rightinf .price .pingjia {
   margin-left: 300px;
-}
-.details_top .rightinf .peisong {
-  margin-bottom: 20px;
-  width: 570px;
-  height: 40px;
-}
-.details_top .rightinf .peisong span {
-  line-height: 40px;
-}
-.details_top .rightinf .peisong input {
-  width: 400px;
-  height: 30px;
-  margin-left: 20px;
 }
 .details_top .rightinf .chima {
   margin-bottom: 20px;

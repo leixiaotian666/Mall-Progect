@@ -1,100 +1,108 @@
 @charset "UTF-8";
 
-.bg_lbcontent{
-    background: #fff;
-    height: auto;  
+.bg_lbcontent {
+  background: #fff;
+  height: auto;
 }
-.lbcontent{
-    width:1000px;
-    // background: skyblue;
-    overflow: hidden; 
-    height: auto;  
-    margin: 0 auto;
-    .leftlist{
-        width:140px;
-        // height:800px;
-        background: #fff;
-        float: left;
-        overflow: hidden;
-        p{
-            margin-bottom: 5px;
-            a{
-                font-size: 14px;
-                color: rgba(0,0,0,0.9);
-                .iconfont{
-                    font-size: 10px;
-                    margin-right: 5px;
-                }                
-            }
+.lbcontent {
+  width: 1000px;
+  // background: skyblue;
+  overflow: hidden;
+  height: auto;
+  margin: 0 auto;
+  .leftlist {
+    width: 140px;
+    // height:800px;
+    background: #fff;
+    float: left;
+    overflow: hidden;
+    p {
+      margin-bottom: 5px;
+      a {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.9);
+        .iconfont {
+          font-size: 10px;
+          margin-right: 5px;
         }
-        h2{
-            margin-bottom: 8px;
-        }
-        .all{
-            color:red;
-            font-size: large;
-            margin-top: 5px;
-        }
+      }
     }
-    .rightcontent{
-        width:860px;
-        // background: yellow;
-        float: left;
-        .toplist{
-            width:820px;
-            height:40px;
-            margin-left: 40px;
-            // background: pink;
-            a{
-                margin-right: 15px;
-                margin-left: 15px;
-                font-size: 14px;
-                color:rgba(0,0,0,0.8);
-                line-height: 40px;
-            }
-            .sum{
-                display: block;
-                float: right;
-                line-height: 40px;
-                margin-right: 20px;
-                font-size: 14px;
-            }
-        }
-        .list{
-            width:860px;
-            // background: green;
-            height: auto;
-            .list1{
-                float: right;
-                width: 250px;
-                height: 350px;
-                margin-left: 35px;
-                overflow: hidden;
-                img{
-                    width: 250px;
-                    height: 280px;
-                    margin-bottom: 10px;
-                    margin-top: 10px;
-                    
-                }
-                span{
-                    font-size: 16px;
-                    
-                }
-                .name{
-                    display: block;
-                    color:rgba(0,0,0,0.8);
-                    text-align: center;
-                    margin-bottom: 6px;
-                    
-                }
-                .price{
-                    display: block;
-                    color: red;
-                    text-align: center;
-                    margin-bottom: 10px;
-                }
-            }
-        }
+    h2 {
+      margin-bottom: 8px;
     }
+    .all {
+      color: red;
+      font-size: large;
+      margin-top: 5px;
+    }
+  }
+  .rightcontent {
+    width: 860px;
+    // background: yellow;
+    float: left;
+    .toplist {
+      width: 820px;
+      height: 40px;
+      margin-left: 20px;
+    //   background: pink;
+      a {
+        margin-right: 15px;
+        width: 100px;
+        height: 40px;
+        margin-left: 15px;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.8);
+        line-height: 40px;
+      }
+      .sum {
+        display: block;
+        float: right;
+        line-height: 40px;
+        margin-right: 20px;
+        font-size: 14px;
+      }
+      
+    }
+    
+    .list {
+      width: 860px;
+      margin: 0 auto;
+      font-size: 14px;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    //   background-color: green;
+      li {
+        width: 250px;
+        padding: 10px;
+        float: left;
+        margin: 0 0 10px 13px;
+        border: 1px solid #ccc;
+        height: 350px;
+        position: relative;
+        a{
+            color: #333;
+            font-size: 14px;
+        }
+        p {
+          width: 250px;
+          height: 48px;
+          line-height: 24px;
+          overflow: hidden;
+        }
+        img {
+          width: 250px;
+          height: 280px;
+          display: block;
+        }
+
+        span {
+          display: block;
+          color: red;
+          font-size: 16px;
+        }
+      }
+    }
+  }
 }
