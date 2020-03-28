@@ -1,0 +1,272 @@
+@charset "UTF-8";
+.public body, .public h1, .public h2, .public h3, .public h4, .public h5, .public h6, .public p, .public ul, .public li, .public ol, .public dl, .public dd, .public fieldset, .public legend, .public button, .public input, .public textarea, .public th, .public td {
+  padding: 0;
+  margin: 0;
+}
+.public html {
+  font-size: 12px;
+  background-color: #eee;
+}
+.public .clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+.public .clear {
+  zoom: 1;
+}
+.public li {
+  list-style: none;
+}
+.public a {
+  text-decoration: none;
+}
+.public img {
+  vertical-align: top;
+  border: 0;
+}
+.public input, .public select, .public button, .public textarea {
+  outline: none;
+}
+.public textarea {
+  resize: none;
+}
+.public input[type="button"], .public input[type="submit"], .public input[type="file"] {
+  cursor: pointer;
+}
+
+.bg_registry_header {
+  height: 100px;
+  background-color: #fff;
+  border-bottom: 5px solid gray;
+}
+.bg_registry_header .registry_header {
+  width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+}
+.bg_registry_header .registry_header .logo {
+  width: 120px;
+  height: 100px;
+  float: left;
+}
+.bg_registry_header .registry_header .logo img {
+  width: 120px;
+  height: 100px;
+}
+.bg_registry_header .registry_header .welcom {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  overflow: hidden;
+  font-size: 18px;
+  color: gray;
+}
+.bg_registry_header .registry_header .welcom span {
+  display: block;
+  margin-top: 60px;
+}
+.bg_registry_header .registry_header .login {
+  width: 180px;
+  height: 100px;
+  float: right;
+  margin-bottom: 30px;
+}
+.bg_registry_header .registry_header .login .had {
+  display: block;
+  float: left;
+  margin-top: 60px;
+  color: gray;
+}
+.bg_registry_header .registry_header .login a {
+  float: left;
+  margin-top: 60px;
+  margin-left: 10px;
+  overflow: hidden;
+  color: red;
+  text-decoration: none;
+}
+.bg_registry_header .registry_header .login a .iconfont {
+  float: right;
+  margin-top: 2px;
+  font-size: 12px;
+  color: red;
+}
+
+.public body, .public h1, .public h2, .public h3, .public h4, .public h5, .public h6, .public p, .public ul, .public li, .public ol, .public dl, .public dd, .public fieldset, .public legend, .public button, .public input, .public textarea, .public th, .public td {
+  padding: 0;
+  margin: 0;
+}
+.public html {
+  font-size: 12px;
+  background-color: #eee;
+}
+.public .clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+.public .clear {
+  zoom: 1;
+}
+.public li {
+  list-style: none;
+}
+.public a {
+  text-decoration: none;
+}
+.public img {
+  vertical-align: top;
+  border: 0;
+}
+.public input, .public select, .public button, .public textarea {
+  outline: none;
+}
+.public textarea {
+  resize: none;
+}
+.public input[type="button"], .public input[type="submit"], .public input[type="file"] {
+  cursor: pointer;
+}
+
+.bg_registry_list {
+  height: 650px;
+  position: relative;
+}
+.bg_registry_list img {
+  width: 100%;
+  height: 650px;
+  margin-top: -25px;
+}
+
+.registry_list {
+  width: 400px;
+  height: 500px;
+  background: skyblue;
+  position: absolute;
+  right: 600px;
+  top: 80px;
+}
+.registry_list fieldset {
+  width: 400px;
+  height: 500px;
+  border: none;
+  overflow: hidden;
+}
+.registry_list fieldset p {
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+.registry_list fieldset p input {
+  width: 250px;
+  height: 30px;
+}
+.registry_list fieldset p .sub {
+  width: 100px;
+  height: 30px;
+}
+.registry_list fieldset .title {
+  font-size: 20px;
+}
+
+.public body, .public h1, .public h2, .public h3, .public h4, .public h5, .public h6, .public p, .public ul, .public li, .public ol, .public dl, .public dd, .public fieldset, .public legend, .public button, .public input, .public textarea, .public th, .public td {
+  padding: 0;
+  margin: 0;
+}
+.public html {
+  font-size: 12px;
+  background-color: #eee;
+}
+.public .clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+.public .clear {
+  zoom: 1;
+}
+.public li {
+  list-style: none;
+}
+.public a {
+  text-decoration: none;
+}
+.public img {
+  vertical-align: top;
+  border: 0;
+}
+.public input, .public select, .public button, .public textarea {
+  outline: none;
+}
+.public textarea {
+  resize: none;
+}
+.public input[type="button"], .public input[type="submit"], .public input[type="file"] {
+  cursor: pointer;
+}
+
+/* 尾部 */
+.bg_footer {
+  background: #f1f1f1;
+  height: 130px;
+}
+
+.footer {
+  background: #f1f1f1;
+  width: 1000px;
+  height: 130px;
+  margin: 0 auto;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer li {
+  list-style: none;
+}
+.footer .footer1 {
+  width: 1000px;
+  height: 50px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.footer .footer1 ul {
+  margin: 0 auto;
+  text-align: center;
+  width: 500px;
+  margin-top: 30px;
+}
+.footer .footer1 ul li {
+  float: left;
+  font-size: 14px;
+  border-right: 1px solid #666;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 19px;
+}
+.footer .footer1 ul li a {
+  color: gray;
+}
+.footer .footer1 ul .last {
+  border: 0;
+}
+.footer .footer2 {
+  width: 1000px;
+  height: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+}
+
+/*# sourceMappingURL=registry.css.map */

@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* 导航栏 */
+body {
+  background: #fff;
+}
+.bg_nav {
+  @include bgstyle(#fff, 40px);
+}
+.nav {
+  @include middlestyle(#fff, 1000px, 40px);
+  ul {
+    float: left;
+    li {
+      float: left;
+      padding: 0 32px;
+      line-height: 40px;
+      a {
+        font-size: 18px;
+        color: gray;
+        display: block;
+        height: 38px;
+      }
+      a:hover {
+        border-bottom: 2px solid red;
+      }
+    }
+    .li1 {
+      margin-right: 150px;
+      position: relative;
+      a{
+          color: red;
+      }
+      .alllist {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        z-index: 2;
+        width: 1000px;
+        height: 500px;
+        background: #fff;
+        border: 1px solid #f1f1f1;
+        display: none;
+        p {
+          display: block;
+          font-size: 14px;
+          color: #333;
+          text-align: center;
+        }
+        h2 {
+          text-align: center;
+          margin-top: 20px;
+          margin-bottom: 10px;
+        }
+        a {
+          font-size: 14px;
+          color: #444;
+
+        }
+        a:hover {
+          color: #fff;
+          border: 0;
+          background: rgba(0,0,0,0.5);
+        }
+        .iconfont {
+          font-size: 8px;
+          margin-right: 10px;
+        }
+        @mixin listbgstyle($width, $height, $background, $float: left) {
+          width: $width;
+          height: $height;
+          background: $background;
+          float: $float;
+        }
+        .fuzhuang {
+          @include listbgstyle(400px, 500px, #fff, left);
+          border-right: 1px solid #f1f1f1;
+          .fuzhuang1 {
+            @include listbgstyle(198px, 339px, #fff, left);
+          }
+          .fuzhuang2 {
+            @include listbgstyle(198px, 339px, #fff, left);
+          }
+        }
+        .daoju {
+          @include listbgstyle(198px, 500px, #fff, left);
+          border-right: 1px solid #f1f1f1;
+          .daoju1 {
+            @include listbgstyle(198px, 339px, #fff, left);
+          }
+        }
+        .xiezi {
+          @include listbgstyle(198px, 500px, #fff, left);
+          border-right: 1px solid #f1f1f1;
+          .xiezi1 {
+            @include listbgstyle(198px, 339px, #fff, left);
+          }
+        }
+        .peishi {
+          @include listbgstyle(198px, 500px, #fff, left);
+          .peishi1 {
+            @include listbgstyle(198px, 339px, #fff, left);
+          }
+        }
+      }
+    }
+    .li1:hover .alllist{
+        display: block;
+    }
+  }
+}
