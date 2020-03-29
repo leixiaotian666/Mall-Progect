@@ -8,103 +8,182 @@
   // background: skyblue;
   margin: 0 auto;
   overflow: hidden;
-  table {
-    margin-top: 30px;
+  .cart-top {
+    width: 1000px;
+    height: 40px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    line-height: 40px;
+    background: #f1f1f1;
+    margin-bottom: 10px;
     input {
       margin-left: 10px;
     }
-    thead > tr > td {
-      width: 1000px;
-      height: 40px;
-      border: 1px solid #ccc;
-      font-size: 15px;
-      line-height: 40px;
-
-      .one {
-        margin-left: 2px;
-        color: red;
-      }
-      .two {
-        margin-left: 60px;
-      }
-      .three {
-        margin-left: 320px;
-      }
-      .four {
-        margin-left: 90px;
-      }
-      .five {
-        margin-left: 140px;
-      }
-      .six {
-        margin-left: 70px;
-      }
+    .allselect {
+      margin-left: 2px;
+      color: red;
     }
-    tbody > tr > td {
-      width: 1000px;
-      height: 120px;
-      border: 1px solid #ccc;
-      font-size: 14px;
-      color: #666;
-      line-height: 120px;
-      a {
-        color: #666;
-      }
+    .commodity {
+      margin-left: 60px;
+    }
+    .price {
+      margin-left: 390px;
+    }
+    .num {
+      margin-left: 90px;
+    }
+    .count {
+      margin-left: 90px;
+    }
+    .do {
+      margin-left: 90px;
+    }
+  }
+  .cart-list {
+    width: 1000px;
+    height: 120px;
+    border: 1px solid #ccc;
+    background: pink;
+    font-size: 16px;
+    color: #666;
+    line-height: 120px;
+    margin-bottom: 10px;
+    @mixin smallcart($height: 120px, $float: left) {
+      height: $height;
+      float: $float;
+    }
+    .check {
+      @include smallcart();
+      width: 60px;
+      // background: yellow;
+      padding-left: 10px;
+    }
+    .goodsinf {
+      @include smallcart();
+      width: 430px;
+      // background: green;
+      overflow: hidden;
       img {
         width: 100px;
         height: 100px;
-        margin-left: 70px;
-        vertical-align: middle;
+        float: left;
+        margin-top: 10px;
+        margin-left: 10px;
       }
-      .one {
-        margin-left: 275px;
+      .title {
+        width: 300px;
+        height: 120px;
+        float: left;
+        margin-left: 10px;
+        // background: yellow;
+
+        p {
+          width: 300px;
+          // background: red;
+          line-height: 30px;
+          white-space: pre-wrap;
+          word-wrap: break-word;
+          word-break: break-all;
+          margin-top: 30px;
+        }
       }
-      .two {
-        margin-left: 60px;
+    }
+    .goodsprice {
+      @include smallcart();
+      width: 125px;
+      text-align: center;
+    }
+    .goodsnum {
+      @include smallcart();
+      width: 125px;
+      // background: rgb(72, 84, 153);
+      text-align: center;
+      .middle {
+        width: 125px;
+        height: 40px;
+        // background: red;
+        margin-top: 40px;
+        position: relative;
+        a {
+          display: inline-block;
+          height: 36px;
+          font-size: 30px;
+          line-height: 30px;
+          padding: 1px 0;
+          width: 30px;
+          text-align: center;
+          color: #666;
+          margin: 0;
+          background: #fff;
+          // float:left;
+        }
+        .less {
+          position: absolute;
+          left: 4px;
+          top: 0;
+        }
+        .add {
+          position: absolute;
+          right: 5px;
+          top: 0;
+        }
+        input {
+          width: 50px;
+          height: 35px;
+          position: absolute;
+          left: 35px;
+          top: 0;
+          text-align: center;
+        }
       }
-      .two,
-      .three,
-      .four {
-        border: 1px solid #ccc;
-        font-size: 20px;
-        padding: 0 5px;
-      }
-      .three {
-        padding: 0 15px;
-      }
-      .three,
-      .four {
-        margin-left: -5px;
-      }
-      .five {
-        margin-left: 105px;
-      }
-      .six {
-        margin-left: 70px;
+    }
+    .addprice {
+      @include smallcart();
+      width: 125px;
+      background: pink;
+      text-align: center;
+    }
+    .caozuo {
+      @include smallcart();
+      width: 125px;
+      // background: skyblue;
+      text-align: center;
+      a {
+        color: #333;
       }
     }
   }
-  tbody > tr > .zong {
+
+  .cart-foot {
     width: 1000px;
     height: 40px;
     border: 1px solid #ccc;
     font-size: 15px;
     position: relative;
     line-height: 40px;
-    .first {
+    position: relative;
+    background: #f1f1f1;
+    input {
+      margin-left: 10px;
+    }
+    .delchecked {
       margin-left: 30px;
+      color: #333;
     }
-    .second {
-      margin-left: 15px;
+    .delall {
+      margin-left: 30px;
+      color: #333;
     }
-    .third {
-      margin-left: 370px;
+    .choose {
+      margin-left: 350px;
     }
-    .fourth,
-    .sixth {
+    .commoditynum {
       color: red;
     }
-    .seventh {
+    .sum {
+      color: red;
+    }
+    .settlement {
       display: block;
       width: 80px;
       height: 30px;

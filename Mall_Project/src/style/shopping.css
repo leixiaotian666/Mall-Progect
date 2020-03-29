@@ -1,7 +1,6 @@
 @charset "UTF-8";
 body {
-  background: #fff;
-}
+  background: #fff; }
 
 /*楼梯导航栏*/
 .loutinav {
@@ -10,85 +9,68 @@ body {
   background-color: #fff;
   position: fixed;
   right: 300px;
-  bottom: 400px;
-}
+  bottom: 400px; }
 .loutinav ul li {
   width: 50px;
   height: 50px;
-  border: 1px solid #f1f1f1;
-}
+  border: 1px solid #f1f1f1; }
 .loutinav ul li a span {
   font-size: 30px;
   color: red;
   display: block;
   line-height: 50px;
-  text-align: center;
-}
+  text-align: center; }
 
 /* 头部区域 */
 .bg_top {
   background: #f1f1f1;
-  height: 40px;
-}
+  height: 40px; }
 
 .top {
   background: #f1f1f1;
   width: 1000px;
   height: 40px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 .top .top-1 {
-  float: left;
-}
+  float: left; }
 .top .top-1 p {
   font-size: 14px;
   color: red;
   line-height: 40px;
-  margin-left: 20px;
-}
+  margin-left: 20px; }
 .top .top-2 {
-  float: right;
-}
+  float: right; }
 .top .top-2 ul {
   height: 40px;
-  overflow: hidden;
-}
+  overflow: hidden; }
 .top .top-2 ul .iconfont {
-  font-size: 14px;
-}
+  font-size: 14px; }
 .top .top-2 ul li {
   float: left;
   padding: 0 10px;
-  margin-top: 10px;
-}
+  margin-top: 10px; }
 .top .top-2 ul li a {
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.8);
-}
+  color: rgba(0, 0, 0, 0.8); }
 .top .top-2 ul li .a1 {
-  color: red;
-}
+  color: red; }
 .top .top-2 ul li:hover a {
-  color: red;
-}
+  color: red; }
 
 /* logo和input框 */
 .bg_logo {
   background: #fff;
-  height: 100px;
-}
+  height: 100px; }
 
 .logo {
   background: #fff;
   width: 1000px;
   height: 100px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 .logo .logo1 img {
   width: 120px;
   height: 100px;
-  float: left;
-}
+  float: left; }
 .logo .inp {
   width: 500px;
   height: 50px;
@@ -96,27 +78,23 @@ body {
   float: left;
   margin-top: 25px;
   margin-left: 90px;
-  border: 2px solid red;
-}
+  border: 2px solid red; }
 .logo .inp .sinp {
   width: 400px;
   height: 50px;
-  float: left;
-}
+  float: left; }
 .logo .inp .sinp .icon-sousuo {
   display: block;
   font-size: 40px;
   color: #ccc;
   line-height: 50px;
-  float: left;
-}
+  float: left; }
 .logo .inp .sinp input {
   width: 350px;
   height: 50px;
   border: none;
   outline: none;
-  float: left;
-}
+  float: left; }
 .logo .inp button {
   width: 60px;
   height: 50px;
@@ -124,55 +102,44 @@ body {
   background: red;
   color: #fff;
   border: none;
-  font-size: 16px;
-}
+  font-size: 16px; }
 .logo .erwei img {
   width: 100px;
   height: 100px;
   float: right;
-  margin-left: 10px;
-}
+  margin-left: 10px; }
 
 /* 导航栏 */
 body {
-  background: #fff;
-}
+  background: #fff; }
 
 .bg_nav {
   background: #fff;
-  height: 40px;
-}
+  height: 40px; }
 
 .nav {
   background: #fff;
   width: 1000px;
   height: 40px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 .nav ul {
-  float: left;
-}
+  float: left; }
 .nav ul li {
   float: left;
   padding: 0 32px;
-  line-height: 40px;
-}
+  line-height: 40px; }
 .nav ul li a {
   font-size: 18px;
   color: gray;
   display: block;
-  height: 38px;
-}
+  height: 38px; }
 .nav ul li a:hover {
-  border-bottom: 2px solid red;
-}
+  border-bottom: 2px solid red; }
 .nav ul .li1 {
   margin-right: 150px;
-  position: relative;
-}
+  position: relative; }
 .nav ul .li1 a {
-  color: red;
-}
+  color: red; }
 .nav ul .li1 .alllist {
   position: absolute;
   top: 40px;
@@ -182,200 +149,223 @@ body {
   height: 500px;
   background: #fff;
   border: 1px solid #f1f1f1;
-  display: none;
-}
+  display: none; }
 .nav ul .li1 .alllist p {
   display: block;
   font-size: 14px;
   color: #333;
-  text-align: center;
-}
+  text-align: center; }
 .nav ul .li1 .alllist h2 {
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 .nav ul .li1 .alllist a {
   font-size: 14px;
-  color: #444;
-}
+  color: #444; }
 .nav ul .li1 .alllist a:hover {
   color: #fff;
   border: 0;
-  background: rgba(0, 0, 0, 0.5);
-}
+  background: rgba(0, 0, 0, 0.5); }
 .nav ul .li1 .alllist .iconfont {
   font-size: 8px;
-  margin-right: 10px;
-}
+  margin-right: 10px; }
 .nav ul .li1 .alllist .fuzhuang {
   width: 400px;
   height: 500px;
   background: #fff;
   float: left;
-  border-right: 1px solid #f1f1f1;
-}
+  border-right: 1px solid #f1f1f1; }
 .nav ul .li1 .alllist .fuzhuang .fuzhuang1 {
   width: 198px;
   height: 339px;
   background: #fff;
-  float: left;
-}
+  float: left; }
 .nav ul .li1 .alllist .fuzhuang .fuzhuang2 {
   width: 198px;
   height: 339px;
   background: #fff;
-  float: left;
-}
+  float: left; }
 .nav ul .li1 .alllist .daoju {
   width: 198px;
   height: 500px;
   background: #fff;
   float: left;
-  border-right: 1px solid #f1f1f1;
-}
+  border-right: 1px solid #f1f1f1; }
 .nav ul .li1 .alllist .daoju .daoju1 {
   width: 198px;
   height: 339px;
   background: #fff;
-  float: left;
-}
+  float: left; }
 .nav ul .li1 .alllist .xiezi {
   width: 198px;
   height: 500px;
   background: #fff;
   float: left;
-  border-right: 1px solid #f1f1f1;
-}
+  border-right: 1px solid #f1f1f1; }
 .nav ul .li1 .alllist .xiezi .xiezi1 {
   width: 198px;
   height: 339px;
   background: #fff;
-  float: left;
-}
+  float: left; }
 .nav ul .li1 .alllist .peishi {
   width: 198px;
   height: 500px;
   background: #fff;
-  float: left;
-}
+  float: left; }
 .nav ul .li1 .alllist .peishi .peishi1 {
   width: 198px;
   height: 339px;
   background: #fff;
-  float: left;
-}
+  float: left; }
 .nav ul .li1:hover .alllist {
-  display: block;
-}
+  display: block; }
 
 .bg_shopping {
-  height: auto;
-}
+  height: auto; }
 
 .shopping {
   width: 1000px;
   height: 600px;
   margin: 0 auto;
-  overflow: hidden;
-}
-.shopping table {
-  margin-top: 30px;
-}
-.shopping table input {
-  margin-left: 10px;
-}
-.shopping table thead > tr > td {
+  overflow: hidden; }
+.shopping .cart-top {
   width: 1000px;
   height: 40px;
   border: 1px solid #ccc;
   font-size: 15px;
   line-height: 40px;
-}
-.shopping table thead > tr > td .one {
+  background: #f1f1f1;
+  margin-bottom: 10px; }
+.shopping .cart-top input {
+  margin-left: 10px; }
+.shopping .cart-top .allselect {
   margin-left: 2px;
-  color: red;
-}
-.shopping table thead > tr > td .two {
-  margin-left: 60px;
-}
-.shopping table thead > tr > td .three {
-  margin-left: 320px;
-}
-.shopping table thead > tr > td .four {
-  margin-left: 90px;
-}
-.shopping table thead > tr > td .five {
-  margin-left: 140px;
-}
-.shopping table thead > tr > td .six {
-  margin-left: 70px;
-}
-.shopping table tbody > tr > td {
+  color: red; }
+.shopping .cart-top .commodity {
+  margin-left: 60px; }
+.shopping .cart-top .price {
+  margin-left: 390px; }
+.shopping .cart-top .num {
+  margin-left: 90px; }
+.shopping .cart-top .count {
+  margin-left: 90px; }
+.shopping .cart-top .do {
+  margin-left: 90px; }
+.shopping .cart-list {
   width: 1000px;
   height: 120px;
   border: 1px solid #ccc;
-  font-size: 14px;
+  background: pink;
+  font-size: 16px;
   color: #666;
   line-height: 120px;
-}
-.shopping table tbody > tr > td a {
-  color: #666;
-}
-.shopping table tbody > tr > td img {
+  margin-bottom: 10px; }
+.shopping .cart-list .check {
+  height: 120px;
+  float: left;
+  width: 60px;
+  padding-left: 10px; }
+.shopping .cart-list .goodsinf {
+  height: 120px;
+  float: left;
+  width: 430px;
+  overflow: hidden; }
+.shopping .cart-list .goodsinf img {
   width: 100px;
   height: 100px;
-  margin-left: 70px;
-  vertical-align: middle;
-}
-.shopping table tbody > tr > td .one {
-  margin-left: 275px;
-}
-.shopping table tbody > tr > td .two {
-  margin-left: 60px;
-}
-.shopping table tbody > tr > td .two,
-.shopping table tbody > tr > td .three,
-.shopping table tbody > tr > td .four {
-  border: 1px solid #ccc;
-  font-size: 20px;
-  padding: 0 5px;
-}
-.shopping table tbody > tr > td .three {
-  padding: 0 15px;
-}
-.shopping table tbody > tr > td .three,
-.shopping table tbody > tr > td .four {
-  margin-left: -5px;
-}
-.shopping table tbody > tr > td .five {
-  margin-left: 105px;
-}
-.shopping table tbody > tr > td .six {
-  margin-left: 70px;
-}
-.shopping tbody > tr > .zong {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px; }
+.shopping .cart-list .goodsinf .title {
+  width: 300px;
+  height: 120px;
+  float: left;
+  margin-left: 10px; }
+.shopping .cart-list .goodsinf .title p {
+  width: 300px;
+  line-height: 30px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-all;
+  margin-top: 30px; }
+.shopping .cart-list .goodsprice {
+  height: 120px;
+  float: left;
+  width: 125px;
+  text-align: center; }
+.shopping .cart-list .goodsnum {
+  height: 120px;
+  float: left;
+  width: 125px;
+  text-align: center; }
+.shopping .cart-list .goodsnum .middle {
+  width: 125px;
+  height: 40px;
+  margin-top: 40px;
+  position: relative; }
+.shopping .cart-list .goodsnum .middle a {
+  display: inline-block;
+  height: 36px;
+  font-size: 30px;
+  line-height: 30px;
+  padding: 1px 0;
+  width: 30px;
+  text-align: center;
+  color: #666;
+  margin: 0;
+  background: #fff; }
+.shopping .cart-list .goodsnum .middle .less {
+  position: absolute;
+  left: 4px;
+  top: 0; }
+.shopping .cart-list .goodsnum .middle .add {
+  position: absolute;
+  right: 5px;
+  top: 0; }
+.shopping .cart-list .goodsnum .middle input {
+  width: 50px;
+  height: 35px;
+  position: absolute;
+  left: 35px;
+  top: 0;
+  text-align: center; }
+.shopping .cart-list .addprice {
+  height: 120px;
+  float: left;
+  width: 125px;
+  background: pink;
+  text-align: center; }
+.shopping .cart-list .caozuo {
+  height: 120px;
+  float: left;
+  width: 125px;
+  text-align: center; }
+.shopping .cart-list .caozuo a {
+  color: #333; }
+.shopping .cart-foot {
   width: 1000px;
   height: 40px;
   border: 1px solid #ccc;
   font-size: 15px;
   position: relative;
   line-height: 40px;
-}
-.shopping tbody > tr > .zong .first {
+  position: relative;
+  background: #f1f1f1; }
+.shopping .cart-foot input {
+  margin-left: 10px; }
+.shopping .cart-foot .delchecked {
   margin-left: 30px;
-}
-.shopping tbody > tr > .zong .second {
-  margin-left: 15px;
-}
-.shopping tbody > tr > .zong .third {
-  margin-left: 370px;
-}
-.shopping tbody > tr > .zong .fourth,
-.shopping tbody > tr > .zong .sixth {
-  color: red;
-}
-.shopping tbody > tr > .zong .seventh {
+  color: #333; }
+.shopping .cart-foot .delall {
+  margin-left: 30px;
+  color: #333; }
+.shopping .cart-foot .choose {
+  margin-left: 350px; }
+.shopping .cart-foot .commoditynum {
+  color: red; }
+.shopping .cart-foot .sum {
+  color: red; }
+.shopping .cart-foot .settlement {
   display: block;
   width: 80px;
   height: 30px;
@@ -385,98 +375,77 @@ body {
   right: 20px;
   top: 5px;
   text-align: center;
-  line-height: 30px;
-}
+  line-height: 30px; }
 
 .public body, .public h1, .public h2, .public h3, .public h4, .public h5, .public h6, .public p, .public ul, .public li, .public ol, .public dl, .public dd, .public fieldset, .public legend, .public button, .public input, .public textarea, .public th, .public td {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 .public html {
   font-size: 12px;
-  background-color: #eee;
-}
+  background-color: #eee; }
 .public .clear:after {
   content: "";
   display: block;
   clear: both;
   height: 0;
   visibility: hidden;
-  overflow: hidden;
-}
+  overflow: hidden; }
 .public .clear {
-  zoom: 1;
-}
+  zoom: 1; }
 .public li {
-  list-style: none;
-}
+  list-style: none; }
 .public a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 .public img {
   vertical-align: top;
-  border: 0;
-}
+  border: 0; }
 .public input, .public select, .public button, .public textarea {
-  outline: none;
-}
+  outline: none; }
 .public textarea {
-  resize: none;
-}
+  resize: none; }
 .public input[type="button"], .public input[type="submit"], .public input[type="file"] {
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 /* 尾部 */
 .bg_footer {
   background: #f1f1f1;
-  height: 130px;
-}
+  height: 130px; }
 
 .footer {
   background: #f1f1f1;
   width: 1000px;
   height: 130px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 .footer a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 .footer li {
-  list-style: none;
-}
+  list-style: none; }
 .footer .footer1 {
   width: 1000px;
   height: 50px;
   overflow: hidden;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 .footer .footer1 ul {
   margin: 0 auto;
   text-align: center;
   width: 500px;
-  margin-top: 30px;
-}
+  margin-top: 30px; }
 .footer .footer1 ul li {
   float: left;
   font-size: 14px;
   border-right: 1px solid #666;
   padding-right: 10px;
   padding-left: 10px;
-  height: 19px;
-}
+  height: 19px; }
 .footer .footer1 ul li a {
-  color: gray;
-}
+  color: gray; }
 .footer .footer1 ul .last {
-  border: 0;
-}
+  border: 0; }
 .footer .footer2 {
   width: 1000px;
   height: 20px;
   text-align: center;
   font-size: 14px;
-  color: gray;
-}
+  color: gray; }
 
 /*# sourceMappingURL=shopping.css.map */

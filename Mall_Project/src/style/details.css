@@ -1,7 +1,6 @@
 @charset "UTF-8";
 body {
-  background: #fff;
-}
+  background: #fff; }
 
 /*楼梯导航栏*/
 .loutinav {
@@ -10,85 +9,68 @@ body {
   background-color: #fff;
   position: fixed;
   right: 300px;
-  bottom: 400px;
-}
+  bottom: 400px; }
 .loutinav ul li {
   width: 50px;
   height: 50px;
-  border: 1px solid #f1f1f1;
-}
+  border: 1px solid #f1f1f1; }
 .loutinav ul li a span {
   font-size: 30px;
   color: red;
   display: block;
   line-height: 50px;
-  text-align: center;
-}
+  text-align: center; }
 
 /* 头部区域 */
 .bg_top {
   background: #f1f1f1;
-  height: 40px;
-}
+  height: 40px; }
 
 .top {
   background: #f1f1f1;
   width: 1000px;
   height: 40px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 .top .top-1 {
-  float: left;
-}
+  float: left; }
 .top .top-1 p {
   font-size: 14px;
   color: red;
   line-height: 40px;
-  margin-left: 20px;
-}
+  margin-left: 20px; }
 .top .top-2 {
-  float: right;
-}
+  float: right; }
 .top .top-2 ul {
   height: 40px;
-  overflow: hidden;
-}
+  overflow: hidden; }
 .top .top-2 ul .iconfont {
-  font-size: 14px;
-}
+  font-size: 14px; }
 .top .top-2 ul li {
   float: left;
   padding: 0 10px;
-  margin-top: 10px;
-}
+  margin-top: 10px; }
 .top .top-2 ul li a {
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.8);
-}
+  color: rgba(0, 0, 0, 0.8); }
 .top .top-2 ul li .a1 {
-  color: red;
-}
+  color: red; }
 .top .top-2 ul li:hover a {
-  color: red;
-}
+  color: red; }
 
 /* logo和input框 */
 .bg_logo {
   background: #fff;
-  height: 100px;
-}
+  height: 100px; }
 
 .logo {
   background: #fff;
   width: 1000px;
   height: 100px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 .logo .logo1 img {
   width: 120px;
   height: 100px;
-  float: left;
-}
+  float: left; }
 .logo .inp {
   width: 500px;
   height: 50px;
@@ -96,27 +78,23 @@ body {
   float: left;
   margin-top: 25px;
   margin-left: 90px;
-  border: 2px solid red;
-}
+  border: 2px solid red; }
 .logo .inp .sinp {
   width: 400px;
   height: 50px;
-  float: left;
-}
+  float: left; }
 .logo .inp .sinp .icon-sousuo {
   display: block;
   font-size: 40px;
   color: #ccc;
   line-height: 50px;
-  float: left;
-}
+  float: left; }
 .logo .inp .sinp input {
   width: 350px;
   height: 50px;
   border: none;
   outline: none;
-  float: left;
-}
+  float: left; }
 .logo .inp button {
   width: 60px;
   height: 50px;
@@ -124,55 +102,44 @@ body {
   background: red;
   color: #fff;
   border: none;
-  font-size: 16px;
-}
+  font-size: 16px; }
 .logo .erwei img {
   width: 100px;
   height: 100px;
   float: right;
-  margin-left: 10px;
-}
+  margin-left: 10px; }
 
 /* 导航栏 */
 body {
-  background: #fff;
-}
+  background: #fff; }
 
 .bg_nav {
   background: #fff;
-  height: 40px;
-}
+  height: 40px; }
 
 .nav {
   background: #fff;
   width: 1000px;
   height: 40px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 .nav ul {
-  float: left;
-}
+  float: left; }
 .nav ul li {
   float: left;
   padding: 0 32px;
-  line-height: 40px;
-}
+  line-height: 40px; }
 .nav ul li a {
   font-size: 18px;
   color: gray;
   display: block;
-  height: 38px;
-}
+  height: 38px; }
 .nav ul li a:hover {
-  border-bottom: 2px solid red;
-}
+  border-bottom: 2px solid red; }
 .nav ul .li1 {
   margin-right: 150px;
-  position: relative;
-}
+  position: relative; }
 .nav ul .li1 a {
-  color: red;
-}
+  color: red; }
 .nav ul .li1 .alllist {
   position: absolute;
   top: 40px;
@@ -182,120 +149,99 @@ body {
   height: 500px;
   background: #fff;
   border: 1px solid #f1f1f1;
-  display: none;
-}
+  display: none; }
 .nav ul .li1 .alllist p {
   display: block;
   font-size: 14px;
   color: #333;
-  text-align: center;
-}
+  text-align: center; }
 .nav ul .li1 .alllist h2 {
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 .nav ul .li1 .alllist a {
   font-size: 14px;
-  color: #444;
-}
+  color: #444; }
 .nav ul .li1 .alllist a:hover {
   color: #fff;
   border: 0;
-  background: rgba(0, 0, 0, 0.5);
-}
+  background: rgba(0, 0, 0, 0.5); }
 .nav ul .li1 .alllist .iconfont {
   font-size: 8px;
-  margin-right: 10px;
-}
+  margin-right: 10px; }
 .nav ul .li1 .alllist .fuzhuang {
   width: 400px;
   height: 500px;
   background: #fff;
   float: left;
-  border-right: 1px solid #f1f1f1;
-}
+  border-right: 1px solid #f1f1f1; }
 .nav ul .li1 .alllist .fuzhuang .fuzhuang1 {
   width: 198px;
   height: 339px;
   background: #fff;
-  float: left;
-}
+  float: left; }
 .nav ul .li1 .alllist .fuzhuang .fuzhuang2 {
   width: 198px;
   height: 339px;
   background: #fff;
-  float: left;
-}
+  float: left; }
 .nav ul .li1 .alllist .daoju {
   width: 198px;
   height: 500px;
   background: #fff;
   float: left;
-  border-right: 1px solid #f1f1f1;
-}
+  border-right: 1px solid #f1f1f1; }
 .nav ul .li1 .alllist .daoju .daoju1 {
   width: 198px;
   height: 339px;
   background: #fff;
-  float: left;
-}
+  float: left; }
 .nav ul .li1 .alllist .xiezi {
   width: 198px;
   height: 500px;
   background: #fff;
   float: left;
-  border-right: 1px solid #f1f1f1;
-}
+  border-right: 1px solid #f1f1f1; }
 .nav ul .li1 .alllist .xiezi .xiezi1 {
   width: 198px;
   height: 339px;
   background: #fff;
-  float: left;
-}
+  float: left; }
 .nav ul .li1 .alllist .peishi {
   width: 198px;
   height: 500px;
   background: #fff;
-  float: left;
-}
+  float: left; }
 .nav ul .li1 .alllist .peishi .peishi1 {
   width: 198px;
   height: 339px;
   background: #fff;
-  float: left;
-}
+  float: left; }
 .nav ul .li1:hover .alllist {
-  display: block;
-}
+  display: block; }
 
 .bg_details_top {
-  height: 650px;
-}
+  height: 600px; }
 
 .details_top {
-  height: 650px;
+  height: 600px;
   width: 1000px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 .details_top .wrap {
   float: left;
   position: relative;
   width: 400px;
-  height: 650px;
-}
+  height: 600px; }
 .details_top .wrap #spic {
   width: 400px;
   height: 500px;
   border: 1px solid #ccc;
   float: left;
   position: relative;
-  background-color: green;
-}
+  background-color: green; }
 .details_top .wrap #spic img {
   width: 400px;
-  height: 500px;
-}
+  height: 500px; }
 .details_top .wrap #spic #sf {
   width: 50px;
   height: 50px;
@@ -304,34 +250,30 @@ body {
   position: absolute;
   left: 0px;
   top: 0px;
-  visibility: hidden;
-}
+  visibility: hidden; }
 .details_top .wrap #bf {
-  width: 550px;
-  height: 640px;
+  width: 500px;
+  height: 580px;
   border: 1px solid #ccc;
   overflow: hidden;
   position: absolute;
   left: 410px;
   top: 0;
   visibility: hidden;
-  z-index: 100;
-}
+  z-index: 100; }
 .details_top .wrap #bf img {
   position: absolute;
   left: 0px;
   top: 0px;
   width: 800px;
-  height: 1000px;
-}
+  height: 1000px; }
 .details_top .wrap #ulist {
   position: absolute;
   left: 0px;
   top: 520px;
   width: 400px;
   height: 60px;
-  overflow: hidden;
-}
+  overflow: hidden; }
 .details_top .wrap #ulist a {
   float: left;
   width: 10px;
@@ -340,32 +282,27 @@ body {
   text-decoration: none;
   line-height: 60px;
   text-align: center;
-  background: #fff;
-}
+  background: #fff; }
 .details_top .wrap #ulist #list {
   float: left;
   margin-left: 54px;
   width: 400px;
-  position: relative;
-}
+  position: relative; }
 .details_top .wrap #ulist #list ul {
   list-style: none;
   float: left;
   position: absolute;
   left: 0px;
-  top: 0px;
-}
+  top: 0px; }
 .details_top .wrap #ulist #list ul li {
   float: left;
   width: 50px;
   height: 60px;
-  padding-right: 10px;
-}
+  padding-right: 10px; }
 .details_top .wrap #ulist #list ul li img {
   width: 50px;
   height: 60px;
-  border: 1px solid #ccc;
-}
+  border: 1px solid #ccc; }
 .details_top .wrap #ulist #right {
   position: absolute;
   right: 0px;
@@ -373,8 +310,7 @@ body {
   color: #333;
   width: 45px;
   text-align: center;
-  font-size: 18px;
-}
+  font-size: 18px; }
 .details_top .wrap #ulist #left {
   position: absolute;
   left: 0px;
@@ -383,30 +319,25 @@ body {
   color: #fff;
   width: 45px;
   text-align: center;
-  font-size: 18px;
-}
+  font-size: 18px; }
 .details_top .rightinf {
-  height: 610px;
+  height: 550px;
   width: 560px;
   float: left;
   padding: 20px;
-  overflow: hidden;
-}
+  overflow: hidden; }
 .details_top .rightinf span {
   font-size: 14px;
-  color: #666;
-}
+  color: #666; }
 .details_top .rightinf .title {
   background: green;
   font-size: 16px;
   color: #fff;
   float: left;
-  margin-right: 10px;
-}
+  margin-right: 10px; }
 .details_top .rightinf .title1 {
   font-weight: 600;
-  font-size: 16px;
-}
+  font-size: 16px; }
 .details_top .rightinf .price {
   width: 550px;
   height: 50px;
@@ -414,32 +345,25 @@ body {
   margin-right: 50px;
   line-height: 50px;
   margin-top: 20px;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 .details_top .rightinf .price .jia {
   color: red;
-  font-size: 16px;
-}
+  font-size: 16px; }
 .details_top .rightinf .price .price1 {
   color: red;
   font-size: 30px;
-  margin-left: 30px;
-}
+  margin-left: 30px; }
 .details_top .rightinf .price .pingjia {
-  margin-left: 250px;
-}
+  margin-left: 250px; }
 .details_top .rightinf .chima {
   margin-bottom: 20px;
   width: 570px;
-  height: 40px;
-}
+  height: 40px; }
 .details_top .rightinf .chima .choose {
   float: left;
-  line-height: 40px;
-}
+  line-height: 40px; }
 .details_top .rightinf .chima ul {
-  float: left;
-}
+  float: left; }
 .details_top .rightinf .chima ul a {
   color: #666;
   float: left;
@@ -449,45 +373,36 @@ body {
   margin-left: 10px;
   font-size: 20px;
   text-align: center;
-  line-height: 40px;
-}
+  line-height: 40px; }
 .details_top .rightinf .shuliang {
   margin-bottom: 20px;
   width: 570px;
   height: 40px;
-  overflow: hidden;
-}
+  overflow: hidden; }
 .details_top .rightinf .shuliang span {
   line-height: 40px;
-  float: left;
-}
+  float: left; }
 .details_top .rightinf .shuliang input {
   width: 40px;
   height: 30px;
   float: left;
-  margin-top: 3px;
-}
+  margin-top: 3px; }
 .details_top .rightinf .shuliang a {
   font-size: 30px;
   color: #666;
   float: left;
-  line-height: 40px;
-}
+  line-height: 40px; }
 .details_top .rightinf .shuliang .less {
   margin-left: 40px;
-  margin-right: 10px;
-}
+  margin-right: 10px; }
 .details_top .rightinf .shuliang .add {
-  margin-left: 5px;
-}
+  margin-left: 5px; }
 .details_top .rightinf .shuliang .kucun {
-  margin-left: 20px;
-}
+  margin-left: 20px; }
 .details_top .rightinf .goumai {
   width: 570px;
   height: 40px;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 .details_top .rightinf .goumai .buy {
   display: block;
   width: 150px;
@@ -498,8 +413,7 @@ body {
   text-align: center;
   line-height: 40px;
   font-size: 20px;
-  color: red;
-}
+  color: red; }
 .details_top .rightinf .goumai .gouwuche {
   display: block;
   width: 200px;
@@ -509,23 +423,19 @@ body {
   text-align: center;
   line-height: 40px;
   font-size: 20px;
-  color: #fff;
-}
+  color: #fff; }
 .details_top .rightinf .goumai .gouwuche .icon-gouwuche {
   margin-right: 10px;
   font-size: 20px;
-  color: #fff;
-}
+  color: #fff; }
 .details_top .rightinf .zhifu {
   width: 570px;
-  height: 40px;
-}
+  height: 40px; }
 .details_top .rightinf .zhifu .zf {
   display: block;
   float: left;
   line-height: 30px;
-  font-size: 16px;
-}
+  font-size: 16px; }
 .details_top .rightinf .zhifu .fukuan {
   display: block;
   padding-left: 0 15px 0 15px;
@@ -534,69 +444,55 @@ body {
   line-height: 30px;
   float: left;
   font-size: 16px;
-  margin-left: 20px;
-}
+  margin-left: 20px; }
 .details_top .rightinf .zhifu .iconfont {
   font-size: 16px;
-  margin-right: 5px;
-}
+  margin-right: 5px; }
 .details_top .rightinf .zhifu .icon-zhifubao {
   margin-left: 20px;
-  color: #01aaee;
-}
+  color: #01aaee; }
 .details_top .rightinf .zhifu .icon-mayihuabei {
-  color: #01aaee;
-}
+  color: #01aaee; }
 .details_top .rightinf .zhifu .icon-weixin1 {
-  color: #50b674;
-}
+  color: #50b674; }
 .details_top .rightinf .zhifu .icon-56 {
-  color: #e9902b;
-}
+  color: #e9902b; }
 
 .bg_details_bottom {
-  height: auto;
-}
+  height: auto; }
 
 .details_bottom {
   width: 1000px;
   height: auto;
   margin: 0 auto;
-  overflow: hidden;
-}
+  overflow: hidden; }
 .details_bottom .leftlist {
   width: 160px;
   height: auto;
   float: left;
   padding: 0 30px 0 30px;
-  border: 1px solid #f1f1f1;
-}
+  border: 1px solid #f1f1f1; }
 .details_bottom .leftlist .top {
   width: 160px;
   height: 40px;
   background: red;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 .details_bottom .leftlist .top p {
   color: #fff;
   font-size: 16px;
   text-align: center;
-  line-height: 40px;
-}
+  line-height: 40px; }
 .details_bottom .leftlist .imglist {
-  position: relative;
-}
+  position: relative; }
 .details_bottom .leftlist .imglist img {
   margin-bottom: 10px;
   width: 160px;
-  height: 160px;
-}
+  height: 160px; }
 .details_bottom .leftlist .imglist p {
   font-size: 16px;
   color: red;
   text-align: center;
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 .details_bottom .leftlist .imglist .title {
   width: 160px;
   height: 40px;
@@ -606,28 +502,24 @@ body {
   top: 120px;
   font-size: 14px;
   color: #fff;
-  display: none;
-}
+  display: none; }
 .details_bottom .leftlist .imglist:hover .title {
   display: block;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-}
+  -webkit-box-orient: vertical; }
 .details_bottom .details {
   width: 778px;
   height: auto;
-  float: left;
-}
+  float: left; }
 .details_bottom .details .detailsnav {
   width: 778px;
   height: 40px;
   background: #f1f1f1;
   border-bottom: 1px solid red;
-  overflow: hidden;
-}
+  overflow: hidden; }
 .details_bottom .details .detailsnav a {
   font-size: 14px;
   width: 100px;
@@ -635,15 +527,12 @@ body {
   text-align: center;
   line-height: 40px;
   float: left;
-  color: black;
-}
+  color: black; }
 .details_bottom .details .detailsnav a:hover {
-  color: red;
-}
+  color: red; }
 .details_bottom .details .detailsnav .position {
   background: red;
-  color: #fff;
-}
+  color: #fff; }
 .details_bottom .details .detailsnav .right {
   float: right;
   background: red;
@@ -653,128 +542,101 @@ body {
   line-height: 30px;
   margin-top: 5px;
   margin-right: 20px;
-  text-align: center;
-}
+  text-align: center; }
 .details_bottom .details .details1 {
   width: 778px;
   height: auto;
-  border-bottom: 1px solid #f1f1f1;
-}
+  border-bottom: 1px solid #f1f1f1; }
 .details_bottom .details .details1 .introduce ul li {
   font-size: 14px;
   line-height: 30px;
-  margin-left: 20px;
-}
+  margin-left: 20px; }
 .details_bottom .details .notice {
   width: 738px;
   height: auto;
-  padding: 20px;
-}
+  padding: 20px; }
 .details_bottom .details .notice h2 {
   font-size: 30px;
   text-align: center;
   color: skyblue;
-  font-weight: 900;
-}
+  font-weight: 900; }
 .details_bottom .details .notice p {
   font-size: 14px;
-  line-height: 30px;
-}
+  line-height: 30px; }
 .details_bottom .details .detailed {
   width: 758px;
   height: auto;
-  padding-left: 20px;
-}
+  padding-left: 20px; }
 
 .public body, .public h1, .public h2, .public h3, .public h4, .public h5, .public h6, .public p, .public ul, .public li, .public ol, .public dl, .public dd, .public fieldset, .public legend, .public button, .public input, .public textarea, .public th, .public td {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 .public html {
   font-size: 12px;
-  background-color: #eee;
-}
+  background-color: #eee; }
 .public .clear:after {
   content: "";
   display: block;
   clear: both;
   height: 0;
   visibility: hidden;
-  overflow: hidden;
-}
+  overflow: hidden; }
 .public .clear {
-  zoom: 1;
-}
+  zoom: 1; }
 .public li {
-  list-style: none;
-}
+  list-style: none; }
 .public a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 .public img {
   vertical-align: top;
-  border: 0;
-}
+  border: 0; }
 .public input, .public select, .public button, .public textarea {
-  outline: none;
-}
+  outline: none; }
 .public textarea {
-  resize: none;
-}
+  resize: none; }
 .public input[type="button"], .public input[type="submit"], .public input[type="file"] {
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 /* 尾部 */
 .bg_footer {
   background: #f1f1f1;
-  height: 130px;
-}
+  height: 130px; }
 
 .footer {
   background: #f1f1f1;
   width: 1000px;
   height: 130px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 .footer a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 .footer li {
-  list-style: none;
-}
+  list-style: none; }
 .footer .footer1 {
   width: 1000px;
   height: 50px;
   overflow: hidden;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 .footer .footer1 ul {
   margin: 0 auto;
   text-align: center;
   width: 500px;
-  margin-top: 30px;
-}
+  margin-top: 30px; }
 .footer .footer1 ul li {
   float: left;
   font-size: 14px;
   border-right: 1px solid #666;
   padding-right: 10px;
   padding-left: 10px;
-  height: 19px;
-}
+  height: 19px; }
 .footer .footer1 ul li a {
-  color: gray;
-}
+  color: gray; }
 .footer .footer1 ul .last {
-  border: 0;
-}
+  border: 0; }
 .footer .footer2 {
   width: 1000px;
   height: 20px;
   text-align: center;
   font-size: 14px;
-  color: gray;
-}
+  color: gray; }
 
 /*# sourceMappingURL=details.css.map */
