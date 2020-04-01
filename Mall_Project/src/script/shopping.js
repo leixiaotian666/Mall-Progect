@@ -110,8 +110,8 @@ $('.bg_footer').load('footer.html');
     let arrnum = [];//存储商品的数量。
     function getcookie() {
         if (jscookie.get('cookiesid') && jscookie.get('cookienum')) {
-            arrsid = jscookie.get('cookiesid').split(',');//获取cookie 同时转换成数组。[1,2,3,4]
-            arrnum = jscookie.get('cookienum').split(',');//获取cookie 同时转换成数组。[12,13,14,15]
+            arrsid = jscookie.get('cookiesid').split(',');//获取cookie 同时转换成数组
+            arrnum = jscookie.get('cookienum').split(',');//获取cookie 同时转换成数组
         } else {
             arrsid = [];
             arrnum = [];
@@ -159,6 +159,8 @@ $('.bg_footer').load('footer.html');
             allprice();//计算总价
         }
     });
+
+    
 }(jQuery)
 
     

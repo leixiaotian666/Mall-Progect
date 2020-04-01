@@ -9,7 +9,7 @@ body {
   background-color: #fff;
   position: fixed;
   right: 300px;
-  bottom: 400px; }
+  bottom: 300px; }
 .loutinav ul li {
   width: 50px;
   height: 50px;
@@ -31,13 +31,28 @@ body {
   width: 1000px;
   height: 40px;
   margin: 0 auto; }
+.top .top-0 {
+  float: left;
+  padding-top: 10px; }
+.top .top-0 a {
+  color: #333;
+  padding: 0 10px;
+  font-size: 14px; }
+.top .top-0 .a1 {
+  color: red; }
 .top .top-1 {
-  float: left; }
-.top .top-1 p {
+  float: left;
+  overflow: hidden; }
+.top .top-1 span {
   font-size: 14px;
   color: red;
   line-height: 40px;
-  margin-left: 20px; }
+  margin-left: 10px; }
+.top .top-1 button {
+  font-size: 12px;
+  color: #333;
+  border-color: #f1f1f1;
+  margin-left: 10px; }
 .top .top-2 {
   float: right; }
 .top .top-2 ul {
@@ -47,7 +62,7 @@ body {
   font-size: 14px; }
 .top .top-2 ul li {
   float: left;
-  padding: 0 10px;
+  padding: 0 20px;
   margin-top: 10px; }
 .top .top-2 ul li a {
   font-size: 14px;
@@ -123,7 +138,9 @@ body {
   height: 40px;
   margin: 0 auto; }
 .nav ul {
-  float: left; }
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center; }
 .nav ul li {
   float: left;
   padding: 0 32px;
@@ -143,8 +160,8 @@ body {
 .nav ul .li1 .alllist {
   position: absolute;
   top: 40px;
-  left: 0;
-  z-index: 2;
+  left: -5px;
+  z-index: 20;
   width: 1000px;
   height: 500px;
   background: #fff;
@@ -529,7 +546,7 @@ body {
   float: left;
   color: black; }
 .details_bottom .details .detailsnav a:hover {
-  color: red; }
+  color: #333; }
 .details_bottom .details .detailsnav .position {
   background: red;
   color: #fff; }

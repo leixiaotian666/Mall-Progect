@@ -43,7 +43,7 @@
     width: 1000px;
     height: 120px;
     border: 1px solid #ccc;
-    background: pink;
+    background: #fff4e8;
     font-size: 16px;
     color: #666;
     line-height: 120px;
@@ -140,7 +140,7 @@
     .addprice {
       @include smallcart();
       width: 125px;
-      background: pink;
+      background: #fff4e8;
       text-align: center;
     }
     .caozuo {

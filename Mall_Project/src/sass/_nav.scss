@@ -8,8 +8,12 @@ body {
 }
 .nav {
   @include middlestyle(#fff, 1000px, 40px);
+  
   ul {
-    float: left;
+    // float: left;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
     li {
       float: left;
       padding: 0 32px;
@@ -33,8 +37,8 @@ body {
       .alllist {
         position: absolute;
         top: 40px;
-        left: 0;
-        z-index: 2;
+        left: -5px;
+        z-index: 20;
         width: 1000px;
         height: 500px;
         background: #fff;

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+.bg_registry_list{
+    height:650px;
+    position:relative;
+    img{
+        width: 100%;
+        height:650px;
+        margin-top: -25px;
+    }
+}
+.registry_list{
+    width:450px;
+    height:500px;
+    background: skyblue;
+    position:absolute;
+    right:600px;
+    top:80px;
+    padding: 25px;
+    padding-top: 40px;
+    form{    
+        p{
+            font-size: 14px;
+            font-weight: 700;
+        }
+        input{
+            margin-bottom: 20px;
+            width: 400px;
+            height: 30px;
+            border-radius: 5%;
+            border: none;
+            padding-left: 10px;
+
+        }
+        .btn{
+            background: #fff;
+            border-radius: 5%;
+            width: 80px;
+        }
+    }
+}

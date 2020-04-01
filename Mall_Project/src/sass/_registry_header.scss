@@ -2,12 +2,12 @@
 @import "public";
 
 .bg_registry_header{
-    height:100px;
+    height:105px;
     background-color: #fff;
     border-bottom: 5px solid gray;
     .registry_header{
         width:1000px;
-        height:100px;
+        height:105px;
         // background: #ccc;
         margin: 0 auto;
         .logo{
@@ -21,11 +21,11 @@
             }
         }
         .welcom{
-            width:100px;
+            width:200px;
             height:100px;
             // background: yellow;
             float: left;
-            margin-bottom: 30px;
+            // margin-bottom: 30px;
             margin-left: 20px;
             overflow: hidden;
             font-size: 18px;
@@ -33,6 +33,15 @@
             span{
                 display: block;
                 margin-top: 60px;
+                float: left;
+                margin-right: 20px;
+            }
+            a{
+                float: left;
+                color: #ccc;
+                text-decoration: none;
+                margin-top: 60px;
+
             }
         }
         .login{

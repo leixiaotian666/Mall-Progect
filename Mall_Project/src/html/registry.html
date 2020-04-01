@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>用户注册</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>注册</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../font/iconfont.css">
     <link rel="stylesheet" type="text/css" href="../style/registry.css">
 </head>
@@ -18,6 +21,7 @@
             </div>
             <div class="welcom">
                 <span>欢迎注册</span>
+                <a href="index.html">返回首页</a>
             </div>
             <div class="login">
                 <span class="had">已有账号？</span>
@@ -29,45 +33,51 @@
     <div class="bg_registry_list">
         <img src="../img/login.jpg" alt="">
         <div class="registry_list">
-            <fieldset>
-                <p class="title">用户注册</p>
-                <form action="http://localhost:8080/loginregistry/src/registry.html" method="post">
-                    <p><label for="">用户姓名：</label><input type="text" name="username" class="username"
-                            placeholder="请输入用户名"><span></span>
-                    </p>
-                    <p><label for="">用户密码：</label><input type="password" name="password"
-                            placeholder="请输入6-20位的密码"><span></span></p>
-                    <p><label for="">确认密码：</label><input type="password" name="repass" placeholder="请确认密码"><span></span>
-                    </p>
-                    <p><label for="">用户邮箱：</label><input type="email" name="email" placeholder="请输入邮箱"><span></span></p>
-                    <p><input class="sub" type="submit" value="立即注册" name="submit"></p>
-                    <!-- <input type="radio" name='agree'> -->
+            <div class="container" style="width: 420px;">
+                <form style="margin-top: 20px;"
+                    action="http://localhost:8080/Mall-Project/Mall_Project/php/registry.php" method="POST">
+                    <div class="form-group">
+                        <label for="exampleInputUsername">用户姓名</label>
+                        <input type="text" class="form-control" id="exampleInputUsername" placeholder="请输入3-16位的用户名"
+                            name="username">
+                        <span class="faild"></span>
+                        <span class="success"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail">用户邮箱</label>
+                        <input type="email" class="form-control" id="exampleInputEmail" placeholder="请输入邮箱"
+                            name="email">
+                        <span class="faild"></span>
+                        <span class="success"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword">用户密码</label>
+                        <input type="password" class="form-control" id="exampleInputPassword"
+                            placeholder="请输入一个6位以上的密码，必须两种字符组成" name="password">
+                        <span class="faild"></span>
+                        <span class="success"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputRepassword">确认密码</label>
+                        <input type="password" class="form-control" id="exampleInputRepassword" placeholder="请再次输入密码"
+                            name="repass">
+                        <span class="faild"></span>
+                        <span class="success"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-default" name="submit">立即注册</button>
+
                 </form>
-            </fieldset>
+            </div>
         </div>
     </div>
     <!------------- footer -------------->
     <div class="bg_footer">
-        <div class="footer">
-            <div class="footer1">
-                <ul>
-                    <li><a href="#">网站地图</a></li>
-                    <li><a href="#">联系我们</a></li>
-                    <li><a href="#">关注我们</a></li>
-                    <li><a href="#">公司简介</a></li>
-                    <li class="last"><a href="#">采购系统入口</a></li>
-                </ul>
-            </div>
-            <p class="footer2">
-                COPYRIGHT2020天天租衣工作室&nbsp;&nbsp;版权所有&nbsp;&nbsp;鄂ICP备06005901号&nbsp;&nbsp;技术支持：天天租衣&nbsp;&nbsp;分享到:
-                <span class="iconfont icon-weixin"></span>
-                <span class="iconfont icon-QQ"></span>
-                <span class="iconfont icon-weibo"></span>
-                <span class="iconfont icon-pengyouquan"></span>
-                <span class="iconfont icon-renrenwang"></span>
-            </p>
-        </div>
+
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="../script/registry.js"></script>
 </body>
 
 </html>

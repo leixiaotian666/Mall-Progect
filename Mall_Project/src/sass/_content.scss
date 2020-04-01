@@ -4,62 +4,50 @@
   background-color: #fff;
   height: auto;
   margin-bottom: 20px;
-  .content {
-    background-color: #fff;
+  .imglist {
     width: 1000px;
     margin: 0 auto;
+    font-size: 14px;
     height: auto;
-    overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    a {
-      // flex: 1;
-      // align-self: center;
+    overflow: hidden;
+    li {
       width: 240px;
-      height: 280px;
-      border: 1px solid #ccc;
+      height: 320px;
+      float: left;
       margin-top: 10px;
-      position: relative;
-      img {
-        width: 220px;
-        height: 220px;
-        display: block;
-        text-align: center;
-        margin: 10px 0 10px 10px;
-      }
-      .span1 {
-        width: 250px;
-        color: rgba(0, 0, 0, 0.8);
-        height: 10px;
-        font-size: 16px;
-        margin-left: 60px;
-      }
-      .span2 {
-        width: 200px;
-        color: red;
-        height: 10px;
-        font-size: 16px;
-      }
-      .title {
-        width: 220px;
-        height: 40px;
-        background: rgba(0, 0, 0, 0.7);
-        position: absolute;
-        left: 10px;
-        top: 190px;
+      margin-left: 7px;
+      border: 1px solid #ccc;
+      a {
+        color: #333;
         font-size: 14px;
-        color: #fff;
-        display: none;
+        p {
+          width: 220px;
+          height: 50px;
+          line-height: 24px;
+          overflow: hidden;
+          margin-left: 10px;
+        }
+        img {
+          width: 220px;
+          height: 220px;
+          display: block;
+          text-align: center;
+          margin: 10px 0 10px 10px;
+        }
+        span {
+          display: block;
+          width: 200px;
+          color: red;
+          height: 10px;
+          font-size: 16px;
+          margin-left: 10px;
+        }
       }
-    }
-    a:hover .title {
-      display: block;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
     }
   }
 }
+
+

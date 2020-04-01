@@ -4,21 +4,23 @@ $('.bg_footer').load('footer.html')
 !function ($) {
     //获取列表页传来的sid
     let $sid = location.search.substring(1).split('=')[1];//substring(1)截取？号后面的字符串，用split将sid=1拆分成数组取第二位
+    let $sidname = location.search.substring(1).split('=')[0];//substring(1)截取？号后面的字符串，用split将sid=1拆分成数组取第一位
     const $price = $('.price1');
     const $smallpic = $('#smallpic');
     const $title = $('.title1');
     const $bpic = $('#bpic');
 
     //如果$sid不存在，默认$sid = 1
+    
     if (!$sid) {
         $sid = 1;
     }
-
     //将sid传给后端
     $.ajax({
         url: "http://localhost:8080/Mall-Project/Mall_Project/php/getsid.php",
         data: {
             sid: $sid,
+            sidname:$sidname,
         },
         dataType: 'json'
     }).done(function (d) {
@@ -121,7 +123,34 @@ $('.bg_footer').load('footer.html')
         }
     });
 
+    //点击+-改变商品数量
+    //增加数量
+    $('.add').on('click', function () {
+        let $num = $(this).parents('.shuliang').find('.num').val();
+        $num++;
+        $(this).parents('.shuliang').find('.num').val($num);
+
+    });
+    //减少数量
+    $('.less').on('click', function () {
+        let $num = $(this).parents('.shuliang').find('.num').val();
+        $num--;
+        if ($num < 1) {
+            $num = 1;
+        }
+        $(this).parents('.shuliang').find('.num').val($num);
+      
+    });
+
     // 购物车按钮点击判断
+    // 点击“加入购物车”判断用户是否登录，未登录则跳转至登录页面
+    $('.gouwuche').on("click", function (){
+        let $username=jscookie.get('username')
+        if(!$username){
+            alert("您尚未登录！");
+            $(".gouwuche").attr('href','login.html');
+        }
+    })
 
     let arrsid = [];//存储商品的编号
     let arrnum = [];//存储商品的数量
@@ -157,66 +186,8 @@ $('.bg_footer').load('footer.html')
             arrnum.push($('.num').val());
             jscookie.add('cookiesid', arrsid, 60);
             jscookie.add('cookienum', arrnum, 60);
-
         }
-        
-
-
     })
-
-
 }(jQuery)
 
 
-
-//购物车的注意事项
-//1.购物车的核心存储什么：
-//商品的编号：
-//商品的数量：
-
-//2.怎么存储--数组
-let arrsid = [];//存储商品的编号。
-let arrnum = [];//存储商品的数量。
-//3.点击加入购物车按钮(确定是第一次点击还是多次点击)
-//第一次点击：在购物车列表页面创建商品列表
-//多次点击：之前创建过商品列表，只需要数量增加。
-
-//取出cookie,才能判断是第一次还是多次点击
-function cookietoarray() {
-    if (jscookie.get('cookiesid') && jscookie.get('cookienum')) {
-        arrsid = jscookie.get('cookiesid').split(',');//获取cookie 同时转换成数组。[1,2,3,4]
-        arrnum = jscookie.get('cookienum').split(',');//获取cookie 同时转换成数组。[12,13,14,15]
-    } else {
-        arrsid = [];
-        arrnum = [];
-    }
-}
-
-
-$('.p-btn a').on('click', function () {
-    //获取当前商品对应的sid
-    let $sid = $(this).parents('.goodsinfo').find('#smallpic').attr('sid');
-    //判断是第一次点击还是多次点击
-    //多次点击
-    //$.inArray(value,array,[fromIndex])
-    //确定第一个参数在数组中的位置，从0开始计数(如果没有找到则返回 -1 )。
-    cookietoarray();
-    if ($.inArray($sid, arrsid) != -1) {//$sid存在，商品列表存在，数量累加
-        //先取出cookie中存在的数量+当前添加的数量，一起添加到cookie中。
-        let $num = parseInt(arrnum[$.inArray($sid, arrsid)]) + parseInt($('#count').val());//取值
-        arrnum[$.inArray($sid, arrsid)] = $num;//赋值
-        jscookie.add('cookienum', arrnum, 10);
-    } else {
-        //第一次点击加入购物车按钮,将商品的sid和商品的数量放到提前准备的数组里面，然后将数组传入cookie.
-        arrsid.push($sid);//将编号$sid push到arrsid数组中
-        jscookie.add('cookiesid', arrsid, 10);
-        arrnum.push($('#count').val());//将数量push到arrnum数组中
-        jscookie.add('cookienum', arrnum, 10);
-    }
-    alert('按钮触发了');
-});
-
-
-
-
-// }(jQuery);
